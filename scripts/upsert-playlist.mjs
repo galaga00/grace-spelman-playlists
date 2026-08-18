@@ -64,7 +64,10 @@ const entry = {
 
 const updated = playlists.filter((playlist) => playlist.id !== id);
 updated.push(entry);
-updated.sort((a, b) => (b.publishedAt || "").localeCompare(a.publishedAt || ""));
+updated.sort((a, b) => {
+  if (a.status !== b.status) return a.status === "complete" ? -1 : 1;
+  return (b.publishedAt || "").localeCompare(a.publishedAt || "");
+});
 
 await writeFile(dataPath, `${JSON.stringify(updated, null, 2)}\n`);
 console.log(`Upserted ${title} (${id})`);
