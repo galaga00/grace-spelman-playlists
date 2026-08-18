@@ -8,8 +8,14 @@
     <meta name="robots" content="index, follow" />
     <meta
       name="description"
-      content="A personal directory of Grace Spelman-inspired playlists on Spotify."
+      content="A chronological public directory of complete Spotify playlists preserved from the Grace Spelman Music Project."
     />
+    <meta property="og:title" content="Grace Spelman Playlist Library" />
+    <meta
+      property="og:description"
+      content="Complete public Spotify playlists, organized by newsletter date."
+    />
+    <link rel="canonical" href="https://galaga00.github.io/grace-spelman-playlists/" />
     <title>Grace Spelman Playlist Library</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
@@ -22,14 +28,14 @@
       <a class="eyebrow" href="#playlists">Personal listening index</a>
       <h1>Grace Spelman<br /><span>Playlist Library</span></h1>
       <p class="intro">
-        A public index of complete playlists and earlier versions assembled from music shared by
-        the Grace Spelman Music Project.
+        A chronological public index of complete playlists preserved from music shared by the
+        Grace Spelman Music Project.
       </p>
       <div class="stats" aria-live="polite">
         <div><strong id="playlist-count">—</strong><span>public playlists</span></div>
         <div><strong id="complete-count">—</strong><span>verified complete</span></div>
-        <div><strong id="track-count">—</strong><span>verified tracks</span></div>
-        <div><strong>Spotify</strong><span>opens in app</span></div>
+        <div><strong id="track-count">—</strong><span>playable tracks</span></div>
+        <div><strong id="unavailable-count">—</strong><span>retired source links</span></div>
       </div>
     </header>
 
@@ -39,7 +45,7 @@
           <p class="kicker">The collection</p>
           <h2>Pick a playlist</h2>
         </div>
-        <p class="update-note">Updated automatically when a new playlist is ready.</p>
+        <p class="update-note">Grouped by newsletter date and updated automatically when a new playlist is ready.</p>
       </div>
 
       <div id="playlist-grid" class="playlist-sections" aria-live="polite">
@@ -52,8 +58,8 @@
 
     <footer>
       <p>
-        A personal listening index. Playlist content is hosted by Spotify; this page does not
-        reproduce newsletter text.
+        A personal listening index. Playlist content is hosted by Spotify; newsletter links point
+        to the original publisher, and this page does not reproduce newsletter text.
       </p>
     </footer>
   </body>

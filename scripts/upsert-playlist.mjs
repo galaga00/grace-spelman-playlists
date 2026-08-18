@@ -32,6 +32,13 @@ try {
 }
 
 const title = String(payload.title || spotifyMetadata.title || "New playlist").trim();
+const spotifyName = String(spotifyMetadata.title || payload.spotify_name || title).trim();
+if (!/^Grace Spelman(?:\s[-—])/.test(spotifyName)) {
+  throw new Error("Spotify playlist name must begin with the Grace Spelman identifier");
+}
+const displayTitle = String(
+  payload.display_title || title.replace(/^Grace Spelman\s[-—]\s*/, ""),
+).trim();
 const publishedAt = String(payload.published_at || payload.publishedAt || new Date().toISOString().slice(0, 10));
 const status = String(payload.status || "complete").trim().toLowerCase();
 
@@ -39,15 +46,16 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(publishedAt)) {
   throw new Error("published_at must use YYYY-MM-DD");
 }
 
-if (!["complete", "partial"].includes(status)) {
-  throw new Error("status must be complete or partial");
+if (status !== "complete") {
+  throw new Error("status must be complete");
 }
 
 const playlists = JSON.parse(await readFile(dataPath, "utf8"));
 const existing = playlists.find((playlist) => playlist.id === id);
 const entry = {
   id,
-  title,
+  title: displayTitle,
+  spotifyName,
   url: normalizedUrl,
   trackCount: parsedCount,
   publishedAt,
@@ -56,10 +64,11 @@ const entry = {
   note: String(
     payload.note ||
       existing?.note ||
-      (status === "complete"
-        ? "A complete playlist ready to open on Spotify."
-        : "An older or partial playlist version retained for completeness."),
+      "A complete public playlist ready to open on Spotify.",
   ).trim(),
+  ...(payload.source_url || existing?.sourceUrl
+    ? { sourceUrl: String(payload.source_url || existing.sourceUrl).trim() }
+    : {}),
 };
 
 const updated = playlists.filter((playlist) => playlist.id !== id);
@@ -70,4 +79,4 @@ updated.sort((a, b) => {
 });
 
 await writeFile(dataPath, `${JSON.stringify(updated, null, 2)}\n`);
-console.log(`Upserted ${title} (${id})`);
+console.log(`Upserted ${displayTitle} (${id})`);
