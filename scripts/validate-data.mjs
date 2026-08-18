@@ -15,14 +15,23 @@ for (const playlist of playlists) {
   if (playlist.url !== `https://open.spotify.com/playlist/${playlist.id}`) {
     throw new Error(`URL does not match playlist ID: ${playlist.id}`);
   }
-  if (!playlist.title || !Number.isInteger(playlist.trackCount) || playlist.trackCount < 0) {
+  if (!playlist.title || !Number.isInteger(playlist.trackCount) || playlist.trackCount < 1) {
     throw new Error(`Invalid playlist metadata: ${playlist.id}`);
   }
-  if (!["complete", "partial"].includes(playlist.status)) {
+  if (playlist.status !== "complete") {
     throw new Error(`Invalid status: ${playlist.id}`);
+  }
+  if (!/^Grace Spelman(?:\s[-—])/.test(playlist.spotifyName || "")) {
+    throw new Error(`Spotify name is missing the Grace Spelman identifier: ${playlist.id}`);
   }
   if (!/^\d{4}-\d{2}-\d{2}$/.test(playlist.publishedAt)) {
     throw new Error(`Invalid publishedAt: ${playlist.id}`);
+  }
+  if (
+    playlist.sourceUrl &&
+    !/^https:\/\/gracespelmanmusicproject\.substack\.com\/p\//.test(playlist.sourceUrl)
+  ) {
+    throw new Error(`Invalid newsletter URL: ${playlist.id}`);
   }
 }
 
