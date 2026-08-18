@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#10110f" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta
+      name="description"
+      content="A personal directory of Grace Spelman-inspired playlists on Spotify."
+    />
+    <title>Grace Spelman Playlist Library</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <header class="hero">
+      <a class="eyebrow" href="#playlists">Personal listening index</a>
+      <h1>Grace Spelman<br /><span>Playlist Library</span></h1>
+      <p class="intro">
+        Complete Spotify playlists assembled from music shared by the Grace Spelman Music Project.
+      </p>
+      <div class="stats" aria-live="polite">
+        <div><strong id="playlist-count">—</strong><span>playlists</span></div>
+        <div><strong id="track-count">—</strong><span>tracks</span></div>
+        <div><strong>Spotify</strong><span>opens in app</span></div>
+      </div>
+    </header>
+
+    <main id="playlists" class="library" tabindex="-1">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">The collection</p>
+          <h2>Pick a playlist</h2>
+        </div>
+        <p class="update-note">Updated automatically when a new playlist is ready.</p>
+      </div>
+
+      <div id="playlist-grid" class="playlist-grid" aria-live="polite">
+        <p class="loading">Loading the playlists…</p>
+      </div>
+      <p id="load-error" class="load-error" hidden>
+        The playlist list could not load. Please refresh the page in a moment.
+      </p>
+    </main>
+
+    <footer>
+      <p>
+        A personal listening index. Playlist content is hosted by Spotify; this page does not
+        reproduce newsletter text.
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+name: Add a completed playlist
+
+on:
+  repository_dispatch:
+    types: [playlist_created]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: playlist-ingest
+  cancel-in-progress: false
+
+jobs:
+  update-directory:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the directory
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Add or update the playlist
+        env:
+          PLAYLIST_PAYLOAD: ${{ toJSON(github.event.client_payload) }}
+        run: node scripts/upsert-playlist.mjs
+
+      - name: Validate playlist data
+        run: node scripts/validate-data.mjs
+
+      - name: Commit an actual change
+        run: |
+          if git diff --quiet -- playlists.json; then
+            echo "Playlist data already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playlists.json
+          git commit -m "data: add completed Spotify playlist"
+          git push

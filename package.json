@@ -1,0 +1,9 @@
+{
+  "name": "grace-spelman-playlist-directory",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-data.mjs",
+    "serve": "python3 -m http.server 4173"
+  }
+}
