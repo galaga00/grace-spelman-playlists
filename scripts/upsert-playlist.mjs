@@ -33,9 +33,14 @@ try {
 
 const title = String(payload.title || spotifyMetadata.title || "New playlist").trim();
 const publishedAt = String(payload.published_at || payload.publishedAt || new Date().toISOString().slice(0, 10));
+const status = String(payload.status || "complete").trim().toLowerCase();
 
 if (!/^\d{4}-\d{2}-\d{2}$/.test(publishedAt)) {
   throw new Error("published_at must use YYYY-MM-DD");
+}
+
+if (!["complete", "partial"].includes(status)) {
+  throw new Error("status must be complete or partial");
 }
 
 const playlists = JSON.parse(await readFile(dataPath, "utf8"));
@@ -46,8 +51,15 @@ const entry = {
   url: normalizedUrl,
   trackCount: parsedCount,
   publishedAt,
+  status,
   image: spotifyMetadata.thumbnail_url || existing?.image || "",
-  note: String(payload.note || existing?.note || "A complete playlist ready to open on Spotify.").trim(),
+  note: String(
+    payload.note ||
+      existing?.note ||
+      (status === "complete"
+        ? "A complete playlist ready to open on Spotify."
+        : "An older or partial playlist version retained for completeness."),
+  ).trim(),
 };
 
 const updated = playlists.filter((playlist) => playlist.id !== id);

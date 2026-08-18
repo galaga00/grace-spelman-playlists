@@ -8,6 +8,8 @@ Read `README.md` first.
 - The private Gmail/Make/OpenAI automation remains at `/Volumes/2TB_RED/_MY_PROJECTS_/codex/spotify` and `https://github.com/galaga00/grace-spelman-spotify-automation`.
 - Never copy Make blueprints, newsletter text, email addresses, credentials, paywalled material, or obsolete/test playlist IDs into this public repository.
 - Future playlist records are event-driven through GitHub `repository_dispatch`; do not add a polling job.
+- Every playlist record must have `status: "complete"` or `status: "partial"`. New Make-created playlists default to `complete`.
+- Keep all 19 currently public Spotify playlists visible. The nine older versions belong in the partial section; do not count their tracks in the verified total.
 
 ## Production
 

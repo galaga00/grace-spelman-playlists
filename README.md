@@ -1,13 +1,15 @@
 # Grace Spelman Playlist Library
 
-Public, mobile-friendly directory of the complete Spotify playlists assembled from music shared by the Grace Spelman Music Project.
+Public, mobile-friendly directory of all 19 Spotify playlists assembled from music shared by the Grace Spelman Music Project: 10 verified complete versions plus nine older or partial versions.
 
-- Planned live URL: <https://galaga00.github.io/grace-spelman-playlists/>
+- Live URL: <https://galaga00.github.io/grace-spelman-playlists/>
 - Public source: <https://github.com/galaga00/grace-spelman-playlists>
 - Local workspace: `/Volumes/2TB_RED/_MY_PROJECTS_/codex/Grace Spelman Playlist Directory/local`
 - Private automation source: <https://github.com/galaga00/grace-spelman-spotify-automation>
 
 The public repository contains only playlist titles, Spotify links, dates, counts, and artwork URLs. It does not contain newsletter bodies, Make blueprints, credentials, personal email addresses, or paid-newsletter source material.
+
+Each record has a `status` of `complete` or `partial`. The public page separates those groups and counts tracks only from verified complete playlists, avoiding inflated totals from duplicate or incomplete versions.
 
 ## Automatic updates
 

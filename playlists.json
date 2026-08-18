@@ -5,6 +5,7 @@
     "url": "https://open.spotify.com/playlist/3kNqHSYHRkjMBdtMJoKbcs",
     "trackCount": 36,
     "publishedAt": "2026-08-09",
+    "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02913f492347e1585748450855ab67616d00001e02a7ea08ab3914c5fb2084a8acab67616d00001e02bcae489ac593de44bd9bda54ab67616d00001e02e6272ad26e7a55bc342a6dd0",
     "note": "The complete 36-track block-party playlist."
   },
@@ -14,6 +15,7 @@
     "url": "https://open.spotify.com/playlist/24vstHwOIDRqNf6jW4q7k8",
     "trackCount": 15,
     "publishedAt": "2026-07-26",
+    "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e023b06adb64209cad4719123e1ab67616d00001e024457fd3af77c42bb80c1da63ab67616d00001e02ebcc9144c41ae7d42efe6d94ab67616d00001e02f98081480318cb35623e1350",
     "note": "A concise 15-track collection, preserved in its original order."
   },
@@ -23,6 +25,7 @@
     "url": "https://open.spotify.com/playlist/5HUNV3sandkpFxWhmNnIk0",
     "trackCount": 43,
     "publishedAt": "2026-07-25",
+    "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0240b1c58c79f08ec33ce11f77ab67616d00001e0241956b9da71468fa44bd25cbab67616d00001e029e4853f5de2296e71f95988dab67616d00001e029fba2d0eb492bcbaf1a3b881",
     "note": "The complete 43-track early-2000s collection."
   },
@@ -32,6 +35,7 @@
     "url": "https://open.spotify.com/playlist/2O04wpYS9H18ZB2e1CmRwy",
     "trackCount": 45,
     "publishedAt": "2026-07-18",
+    "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e023d598aac2c037a46418ac01dab67616d00001e02830db3a4d9f85a5a811f2e7aab67616d00001e02c2051e257fca29adecca19eeab67616d00001e02ca2f2f7e78df204fd18fc65d",
     "note": "An exact 45-track archive of the July 17 list."
   },
@@ -41,6 +45,7 @@
     "url": "https://open.spotify.com/playlist/2K8yHhqAlPuo29Pntnw9Hq",
     "trackCount": 40,
     "publishedAt": "2026-07-16",
+    "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0229fc151a03bc32dc22fd8ae6ab67616d00001e022a6c0b4ab668ae072da5af71ab67616d00001e022b688ab63b1a5f281cfdf451ab67616d00001e029e43c63fdc900e6b70cb2e2e",
     "note": "The complete 40-track campfire playlist."
   },
@@ -50,6 +55,7 @@
     "url": "https://open.spotify.com/playlist/0YGfVlXeYlfmk8cPRcFqr3",
     "trackCount": 46,
     "publishedAt": "2026-07-08",
+    "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e026a12b209185b576cf836efe3ab67616d00001e02957ee6f98472be24163ae296ab67616d00001e02f1111b4b0a9f611b0838053bab67616d00001e02fdbece75f77242118361780d",
     "note": "The complete 46-track cooking playlist."
   },
@@ -59,6 +65,7 @@
     "url": "https://open.spotify.com/playlist/1Y3XWtN6GAKNkz59wZ9jUE",
     "trackCount": 16,
     "publishedAt": "2026-07-02",
+    "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0227581932f00ce4e51f02ff19ab67616d00001e023055e4d18650245f4723523fab67616d00001e02708bfbe1855174ebc9a0f225ab67616d00001e02d7a50eed64c5edd3b007cd31",
     "note": "The complete 16-track getting-ready playlist."
   },
@@ -68,6 +75,7 @@
     "url": "https://open.spotify.com/playlist/6LnadsTpzDJkwwMhKYjGDH",
     "trackCount": 37,
     "publishedAt": "2026-06-26",
+    "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e022bf4cfe440827f633bb34959ab67616d00001e0243aa5a8328085cfb91d45349ab67616d00001e02e21116214662573eb5506b2fab67616d00001e02f75d1e1a58c34517516f84ad",
     "note": "An exact 37-track archive of the June 26 list."
   },
@@ -77,7 +85,8 @@
     "url": "https://open.spotify.com/playlist/6unyODd8zdk5oZkEqq2aUd",
     "trackCount": 215,
     "publishedAt": "2026-06-25",
-    "image": "",
+    "status": "complete",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab676d63000076a0df0762d991b421299405fe26",
     "note": "All tracks from the linked albums, plus “Image” by Magdalena Bay."
   },
   {
@@ -86,7 +95,98 @@
     "url": "https://open.spotify.com/playlist/1StajG0EdsvO5EhV7ZPbW2",
     "trackCount": 126,
     "publishedAt": "2026-06-21",
+    "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e028e8c08ca2feb999bb84f05e6ab67616d00001e02acb3850df0d87236654b273dab67616d00001e02cf390065f5a3336f12143e16ab67616d00001e02e0edb61a25fe2d451f8a45bf",
     "note": "126 playable tracks copied from the 127-item source; one local-only item was unavailable."
+  },
+  {
+    "id": "6JSWbX6SkMB5RFRtUmeatG",
+    "title": "Summer Block Party — Older Partial Version",
+    "url": "https://open.spotify.com/playlist/6JSWbX6SkMB5RFRtUmeatG",
+    "trackCount": 4,
+    "publishedAt": "2026-08-09",
+    "status": "partial",
+    "image": "https://mosaic.scdn.co/300/ab67616d00001e02913f492347e1585748450855ab67616d00001e02a7ea08ab3914c5fb2084a8acab67616d00001e02bcae489ac593de44bd9bda54ab67616d00001e02e6272ad26e7a55bc342a6dd0",
+    "note": "An earlier four-track extraction, retained because it remains visible in Spotify."
+  },
+  {
+    "id": "5AFrwt7zZbuujEYTqtqD5W",
+    "title": "Ravyn Lenae — Older Partial Version",
+    "url": "https://open.spotify.com/playlist/5AFrwt7zZbuujEYTqtqD5W",
+    "trackCount": 4,
+    "publishedAt": "2026-08-07",
+    "status": "partial",
+    "image": "https://mosaic.scdn.co/300/ab67616d00001e0209b1902f04adb154ea60dbdeab67616d00001e027155f3139ddc48b60d02a3c1ab67616d00001e02c3fdf76d0856db13b4a07cd4ab67616d00001e02f130ee5de9f2a022514c181c",
+    "note": "Four tracks visible from the available source; no fuller version has been recovered yet."
+  },
+  {
+    "id": "0rr8NrFBnYnattBWFpF2FU",
+    "title": "New Music Friday — Steve Lacy — Older Partial Version",
+    "url": "https://open.spotify.com/playlist/0rr8NrFBnYnattBWFpF2FU",
+    "trackCount": 4,
+    "publishedAt": "2026-07-18",
+    "status": "partial",
+    "image": "https://mosaic.scdn.co/300/ab67616d00001e0231446e6d2ce76c61f0d34dc0ab67616d00001e02504ee91f37d2fd96ddda7da0ab67616d00001e02830db3a4d9f85a5a811f2e7aab67616d00001e02c2051e257fca29adecca19ee",
+    "note": "An earlier four-track extraction from the July 17 newsletter."
+  },
+  {
+    "id": "43tgEzVmZ6pdd8NKd9820e",
+    "title": "Songs That Feel Like a Campfire — Older Partial Version",
+    "url": "https://open.spotify.com/playlist/43tgEzVmZ6pdd8NKd9820e",
+    "trackCount": 6,
+    "publishedAt": "2026-07-16",
+    "status": "partial",
+    "image": "https://mosaic.scdn.co/300/ab67616d00001e0236e259c002cc8746178f5a64ab67616d00001e025f6b6b1aad88726fc8f2bbdaab67616d00001e0268b7045f5f4fe668a646cd2bab67616d00001e02e707360eea3fb0cfcc617da0",
+    "note": "An earlier six-track extraction; the verified complete version has 40 tracks."
+  },
+  {
+    "id": "18pQQy0UQ5m4heyQ8H2mmR",
+    "title": "Slutty Cooking Playlist — Older Partial Version",
+    "url": "https://open.spotify.com/playlist/18pQQy0UQ5m4heyQ8H2mmR",
+    "trackCount": 4,
+    "publishedAt": "2026-07-08",
+    "status": "partial",
+    "image": "https://mosaic.scdn.co/300/ab67616d00001e022c540a9b80a0a61d1541d6abab67616d00001e02882c536d8dcfb086bcf9733bab67616d00001e02bed88129595f386aded89975ab67616d00001e02fdbece75f77242118361780d",
+    "note": "An earlier four-track extraction; the verified complete version has 46 tracks."
+  },
+  {
+    "id": "7BtggXqW1wRgyBEAcIjAlG",
+    "title": "Getting Ready to Go Out — Older Partial Version",
+    "url": "https://open.spotify.com/playlist/7BtggXqW1wRgyBEAcIjAlG",
+    "trackCount": 4,
+    "publishedAt": "2026-07-02",
+    "status": "partial",
+    "image": "https://mosaic.scdn.co/300/ab67616d00001e025e25e034e25258b356774c79ab67616d00001e02708bfbe1855174ebc9a0f225ab67616d00001e02c699d66824a938624c44c2b7ab67616d00001e02e5d97c29a17c5a205f2ecbdf",
+    "note": "An earlier four-track extraction related to the verified 16-track pre-date playlist."
+  },
+  {
+    "id": "5Cfpq1pY67XfKtAdRR9ndT",
+    "title": "Carly Rae Rocksen / Charli XCX — Older Partial Version",
+    "url": "https://open.spotify.com/playlist/5Cfpq1pY67XfKtAdRR9ndT",
+    "trackCount": 3,
+    "publishedAt": "2026-06-26",
+    "status": "partial",
+    "image": "https://i.scdn.co/image/ab67616d00001e02171335b9db386426d6b6e1a4",
+    "note": "A three-track partial extraction that remains visible in Spotify."
+  },
+  {
+    "id": "7Dgo9E6kNapfxfVCppr8JP",
+    "title": "Songs With Cool Drums and Percussion — Older Duplicate",
+    "url": "https://open.spotify.com/playlist/7Dgo9E6kNapfxfVCppr8JP",
+    "trackCount": 144,
+    "publishedAt": "2026-06-21",
+    "status": "partial",
+    "image": "https://mosaic.scdn.co/300/ab67616d00001e028e8c08ca2feb999bb84f05e6ab67616d00001e02acb3850df0d87236654b273dab67616d00001e02cf390065f5a3336f12143e16ab67616d00001e02e0edb61a25fe2d451f8a45bf",
+    "note": "An older 144-item duplicate. Use the verified 126-playable-track version above."
+  },
+  {
+    "id": "5ILgjLCPH8ss74RpaVybZu",
+    "title": "Songs With Cool Drums or Percussion — Original Partial",
+    "url": "https://open.spotify.com/playlist/5ILgjLCPH8ss74RpaVybZu",
+    "trackCount": 5,
+    "publishedAt": "2026-06-21",
+    "status": "partial",
+    "image": "https://mosaic.scdn.co/300/ab67616d00001e0243d75d9eb6be09ba2d1b38e9ab67616d00001e02661d019f34569f79eae9e985ab67616d00001e02accdf9102be487bdd5d1a8abab67616d00001e02b2f893f4215f2930e7320355",
+    "note": "The original five-track extraction, retained because it remains visible in Spotify."
   }
 ]

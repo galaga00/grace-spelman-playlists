@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="dark" />
     <meta name="theme-color" content="#10110f" />
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="index, follow" />
     <meta
       name="description"
       content="A personal directory of Grace Spelman-inspired playlists on Spotify."
@@ -22,11 +22,13 @@
       <a class="eyebrow" href="#playlists">Personal listening index</a>
       <h1>Grace Spelman<br /><span>Playlist Library</span></h1>
       <p class="intro">
-        Complete Spotify playlists assembled from music shared by the Grace Spelman Music Project.
+        A public index of complete playlists and earlier versions assembled from music shared by
+        the Grace Spelman Music Project.
       </p>
       <div class="stats" aria-live="polite">
-        <div><strong id="playlist-count">—</strong><span>playlists</span></div>
-        <div><strong id="track-count">—</strong><span>tracks</span></div>
+        <div><strong id="playlist-count">—</strong><span>public playlists</span></div>
+        <div><strong id="complete-count">—</strong><span>verified complete</span></div>
+        <div><strong id="track-count">—</strong><span>verified tracks</span></div>
         <div><strong>Spotify</strong><span>opens in app</span></div>
       </div>
     </header>
@@ -40,7 +42,7 @@
         <p class="update-note">Updated automatically when a new playlist is ready.</p>
       </div>
 
-      <div id="playlist-grid" class="playlist-grid" aria-live="polite">
+      <div id="playlist-grid" class="playlist-sections" aria-live="polite">
         <p class="loading">Loading the playlists…</p>
       </div>
       <p id="load-error" class="load-error" hidden>

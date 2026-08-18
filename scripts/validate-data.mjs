@@ -18,9 +18,15 @@ for (const playlist of playlists) {
   if (!playlist.title || !Number.isInteger(playlist.trackCount) || playlist.trackCount < 0) {
     throw new Error(`Invalid playlist metadata: ${playlist.id}`);
   }
+  if (!["complete", "partial"].includes(playlist.status)) {
+    throw new Error(`Invalid status: ${playlist.id}`);
+  }
   if (!/^\d{4}-\d{2}-\d{2}$/.test(playlist.publishedAt)) {
     throw new Error(`Invalid publishedAt: ${playlist.id}`);
   }
 }
 
-console.log(`Validated ${playlists.length} playlists and ${playlists.reduce((sum, playlist) => sum + playlist.trackCount, 0)} tracks.`);
+const complete = playlists.filter((playlist) => playlist.status === "complete");
+console.log(
+  `Validated ${playlists.length} public playlists: ${complete.length} complete with ${complete.reduce((sum, playlist) => sum + playlist.trackCount, 0)} verified tracks.`,
+);

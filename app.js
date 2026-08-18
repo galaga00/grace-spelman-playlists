@@ -1,6 +1,7 @@
 const grid = document.querySelector("#playlist-grid");
 const errorMessage = document.querySelector("#load-error");
 const playlistCount = document.querySelector("#playlist-count");
+const completeCount = document.querySelector("#complete-count");
 const trackCount = document.querySelector("#track-count");
 
 const dateFormatter = new Intl.DateTimeFormat("en-US", {
@@ -12,6 +13,7 @@ const dateFormatter = new Intl.DateTimeFormat("en-US", {
 function createCard(playlist) {
   const article = document.createElement("article");
   article.className = "playlist-card";
+  article.classList.toggle("playlist-card--partial", playlist.status === "partial");
 
   const image = document.createElement("img");
   image.className = "playlist-art";
@@ -28,6 +30,11 @@ function createCard(playlist) {
 
   const meta = document.createElement("div");
   meta.className = "playlist-meta";
+
+  const status = document.createElement("span");
+  status.className = `status-badge status-badge--${playlist.status}`;
+  status.textContent = playlist.status === "partial" ? "Older version" : "Verified complete";
+  meta.append(status);
 
   const count = document.createElement("span");
   count.textContent = `${playlist.trackCount.toLocaleString()} tracks`;
@@ -61,6 +68,28 @@ function createCard(playlist) {
   return article;
 }
 
+function createSection(titleText, descriptionText, playlists) {
+  const section = document.createElement("section");
+  section.className = "playlist-section";
+
+  const heading = document.createElement("div");
+  heading.className = "playlist-section-heading";
+
+  const title = document.createElement("h3");
+  title.textContent = titleText;
+
+  const description = document.createElement("p");
+  description.textContent = descriptionText;
+
+  const cards = document.createElement("div");
+  cards.className = "playlist-grid";
+  cards.replaceChildren(...playlists.map(createCard));
+
+  heading.append(title, description);
+  section.append(heading, cards);
+  return section;
+}
+
 async function loadPlaylists() {
   try {
     const response = await fetch("playlists.json", { cache: "no-store" });
@@ -69,9 +98,24 @@ async function loadPlaylists() {
     const playlists = await response.json();
     playlists.sort((a, b) => (b.publishedAt || "").localeCompare(a.publishedAt || ""));
 
-    grid.replaceChildren(...playlists.map(createCard));
+    const complete = playlists.filter((playlist) => playlist.status === "complete");
+    const partial = playlists.filter((playlist) => playlist.status === "partial");
+
+    grid.replaceChildren(
+      createSection(
+        "Verified complete playlists",
+        "These are the fullest versions recovered from the newsletters and linked sources.",
+        complete,
+      ),
+      createSection(
+        "Older and partial versions",
+        "These nine playlists still appear in Spotify. They are kept here for completeness, but may contain only the tracks visible in an earlier email or extraction.",
+        partial,
+      ),
+    );
     playlistCount.textContent = playlists.length.toLocaleString();
-    trackCount.textContent = playlists
+    completeCount.textContent = complete.length.toLocaleString();
+    trackCount.textContent = complete
       .reduce((sum, playlist) => sum + playlist.trackCount, 0)
       .toLocaleString();
   } catch (error) {
