@@ -21,6 +21,50 @@ if (!Number.isInteger(parsedCount) || parsedCount < 0) {
   throw new Error("track_count must be a non-negative integer");
 }
 
+function playlistIdFromUrl(value) {
+  const candidate = String(value || "").trim();
+  return candidate.match(
+    /^https:\/\/open\.spotify\.com\/playlist\/([A-Za-z0-9]+)(?:[/?#].*)?$/,
+  )?.[1];
+}
+
+async function fetchVisibleSpotifyTrackCount(playlistId) {
+  const response = await fetch(`https://open.spotify.com/embed/playlist/${playlistId}`);
+  if (!response.ok) {
+    throw new Error(`Spotify verification returned ${response.status} for ${playlistId}`);
+  }
+
+  const html = await response.text();
+  const rows = new Set(
+    [...html.matchAll(/data-testid="tracklist-row-(\d+)"/g)].map((match) => match[1]),
+  );
+  if (rows.size === 0 && parsedCount > 0) {
+    throw new Error(`Spotify verification found no playable rows for ${playlistId}`);
+  }
+  return rows.size;
+}
+
+const expectedVisibleCount = Math.min(parsedCount, 100);
+const destinationVisibleCount = await fetchVisibleSpotifyTrackCount(id);
+if (destinationVisibleCount !== expectedVisibleCount) {
+  throw new Error(
+    `Destination playlist verification failed: expected ${expectedVisibleCount} visible tracks, found ${destinationVisibleCount}`,
+  );
+}
+
+const sourcePlaylistId = playlistIdFromUrl(payload.source_playlist_url);
+if (payload.source_playlist_url && !sourcePlaylistId) {
+  throw new Error("source_playlist_url must be an open.spotify.com playlist URL");
+}
+if (sourcePlaylistId) {
+  const sourceVisibleCount = await fetchVisibleSpotifyTrackCount(sourcePlaylistId);
+  if (sourceVisibleCount !== expectedVisibleCount) {
+    throw new Error(
+      `Source playlist verification failed: expected ${expectedVisibleCount} visible tracks, found ${sourceVisibleCount}`,
+    );
+  }
+}
+
 let spotifyMetadata = {};
 try {
   const oembed = new URL("https://open.spotify.com/oembed");
