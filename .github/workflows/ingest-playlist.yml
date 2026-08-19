@@ -6,6 +6,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: playlist-ingest
@@ -42,3 +44,32 @@ jobs:
           git add playlists.json
           git commit -m "data: add completed Spotify playlist"
           git push
+
+  deploy:
+    needs: update-directory
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the updated directory
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Prepare the static site
+        run: |
+          mkdir _site
+          cp index.html styles.css app.js playlists.json robots.txt .nojekyll _site/
+
+      - name: Set up Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
