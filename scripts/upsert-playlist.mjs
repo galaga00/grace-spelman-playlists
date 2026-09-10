@@ -109,8 +109,8 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(publishedAt)) {
   throw new Error("published_at must use YYYY-MM-DD");
 }
 
-if (status !== "complete") {
-  throw new Error("status must be complete");
+if (!["complete", "review"].includes(status)) {
+  throw new Error("status must be complete or review");
 }
 
 if (!/^https:\/\/gracespelmanmusicproject\.substack\.com\/p\//.test(sourceUrl)) {
@@ -133,15 +133,22 @@ const entry = {
   trackCount: parsedCount,
   publishedAt,
   status,
+  ...(payload.source_track_count
+    ? { sourceTrackCount: Number.parseInt(payload.source_track_count, 10) }
+    : {}),
   image: spotifyMetadata.thumbnail_url || existing?.image || "",
   sourceUrl,
   sourceLabel,
   provenance: {
     method: provenanceMethod,
-    fidelity:
-      provenanceMethod === "late_rolling_copy"
-        ? "historical-date-unverified"
-        : "exact",
+    fidelity: String(
+      payload.fidelity ||
+        (provenanceMethod === "late_rolling_copy"
+          ? "historical-date-unverified"
+          : status === "review"
+            ? "verified-available"
+            : "exact"),
+    ),
   },
   note: String(
     payload.note ||
@@ -150,12 +157,17 @@ const entry = {
   ).trim(),
 };
 
-const updated = playlists.filter((playlist) => playlist.id !== id);
+const removeIds = new Set(
+  Array.isArray(payload.remove_ids) ? payload.remove_ids.map(String) : [],
+);
+const updated = playlists.filter(
+  (playlist) => playlist.id !== id && !removeIds.has(playlist.id),
+);
 updated.push(entry);
-updated.sort((a, b) => {
-  if (a.status !== b.status) return a.status === "complete" ? -1 : 1;
-  return (b.publishedAt || "").localeCompare(a.publishedAt || "");
-});
+updated.sort((a, b) =>
+  (b.publishedAt || "").localeCompare(a.publishedAt || "") ||
+  a.title.localeCompare(b.title),
+);
 
 await writeFile(dataPath, `${JSON.stringify(updated, null, 2)}\n`);
 console.log(`Upserted ${displayTitle} (${id})`);

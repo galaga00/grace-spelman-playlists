@@ -28,7 +28,7 @@ for (const playlist of playlists) {
   if (!playlist.title || !Number.isInteger(playlist.trackCount) || playlist.trackCount < 1) {
     throw new Error(`Invalid playlist metadata: ${playlist.id}`);
   }
-  if (playlist.status !== "complete") {
+  if (!["complete", "review"].includes(playlist.status)) {
     throw new Error(`Invalid status: ${playlist.id}`);
   }
   if (!/^Grace Spelman(?:\s[-—])/.test(playlist.spotifyName || "")) {
@@ -46,19 +46,23 @@ for (const playlist of playlists) {
   if (!provenanceMethods.has(playlist.provenance?.method)) {
     throw new Error(`Invalid or missing provenance method: ${playlist.id}`);
   }
-  const expectedFidelity =
-    playlist.provenance.method === "late_rolling_copy"
-      ? "historical-date-unverified"
-      : "exact";
-  if (playlist.provenance.fidelity !== expectedFidelity) {
+  const validFidelities = new Set(["exact", "verified-available", "historical-date-unverified"]);
+  if (!validFidelities.has(playlist.provenance.fidelity)) {
     throw new Error(`Invalid provenance fidelity: ${playlist.id}`);
+  }
+  if (playlist.status === "review" && playlist.provenance.fidelity === "exact") {
+    throw new Error(`Review playlist cannot claim exact fidelity: ${playlist.id}`);
+  }
+  if (playlist.sourceTrackCount !== undefined &&
+      (!Number.isInteger(playlist.sourceTrackCount) || playlist.sourceTrackCount <= playlist.trackCount)) {
+    throw new Error(`Invalid sourceTrackCount: ${playlist.id}`);
   }
 }
 
-const complete = playlists.filter((playlist) => playlist.status === "complete");
-const historicallyExact = complete.filter(
+const publicPlaylists = playlists.filter((playlist) => ["complete", "review"].includes(playlist.status));
+const historicallyExact = publicPlaylists.filter(
   (playlist) => playlist.provenance.fidelity === "exact",
 );
 console.log(
-  `Validated ${playlists.length} public playlists: ${complete.length} complete, ${historicallyExact.length} historically exact, with ${complete.reduce((sum, playlist) => sum + playlist.trackCount, 0)} playable tracks.`,
+  `Validated ${playlists.length} public playlists: ${historicallyExact.length} exact, ${publicPlaylists.length - historicallyExact.length} verified partial, with ${publicPlaylists.reduce((sum, playlist) => sum + playlist.trackCount, 0)} playable tracks.`,
 );

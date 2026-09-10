@@ -2,6 +2,7 @@ const grid = document.querySelector("#playlist-grid");
 const errorMessage = document.querySelector("#load-error");
 const playlistCount = document.querySelector("#playlist-count");
 const completeCount = document.querySelector("#complete-count");
+const reviewCount = document.querySelector("#review-count");
 const trackCount = document.querySelector("#track-count");
 const unavailableCount = document.querySelector("#unavailable-count");
 
@@ -24,13 +25,13 @@ const PROVENANCE = {
     fidelity: "exact",
   },
   google_doc_text: {
-    label: "Dated archive",
-    description: "Rebuilt from Grace’s dated historical song list and verified on Spotify.",
+    label: "Dated text archive",
+    description: "Rebuilt from Grace’s dated historical song list; every included Spotify match was verified.",
     fidelity: "exact",
   },
   google_doc_screenshots: {
-    label: "Archive screenshots",
-    description: "Transcribed from Grace’s dated Spotify screenshots and verified track by track.",
+    label: "Screenshot transcription",
+    description: "Transcribed from Grace’s dated Spotify screenshots, then verified track by track.",
     fidelity: "exact",
   },
   linked_album_reconstruction: {
@@ -51,7 +52,11 @@ const PROVENANCE = {
 };
 
 function provenanceFor(playlist) {
-  return PROVENANCE[playlist.provenance?.method] || PROVENANCE.substack_spotify_copy;
+  const source = PROVENANCE[playlist.provenance?.method] || PROVENANCE.substack_spotify_copy;
+  return {
+    ...source,
+    fidelity: playlist.provenance?.fidelity || source.fidelity,
+  };
 }
 
 const dateFormatter = new Intl.DateTimeFormat("en-US", {
@@ -97,14 +102,16 @@ function createCard(playlist) {
   const provenance = provenanceFor(playlist);
   const status = document.createElement("span");
   status.className = `status-badge ${provenance.fidelity === "exact" ? "is-exact" : "needs-review"}`;
-  status.textContent = provenance.fidelity === "exact" ? "Exact" : "Review";
+  status.textContent = provenance.fidelity === "exact" ? "Exact" : "Partial";
 
   const source = document.createElement("span");
   source.className = "source-badge";
   source.textContent = provenance.label;
 
   const count = document.createElement("span");
-  count.textContent = `${playlist.trackCount.toLocaleString()} tracks`;
+  count.textContent = playlist.sourceTrackCount
+    ? `${playlist.trackCount.toLocaleString()}/${playlist.sourceTrackCount.toLocaleString()} source tracks`
+    : `${playlist.trackCount.toLocaleString()} tracks`;
 
   const date = document.createElement("time");
   date.dateTime = playlist.publishedAt;
@@ -230,13 +237,13 @@ async function loadPlaylists() {
     if (!response.ok) throw new Error(`Playlist data returned ${response.status}`);
 
     const playlists = await response.json();
-    const complete = playlists
-      .filter((playlist) => playlist.status === "complete")
+    const publicPlaylists = playlists
+      .filter((playlist) => ["complete", "review"].includes(playlist.status))
       .sort((left, right) => {
         const byDate = right.publishedAt.localeCompare(left.publishedAt);
         return byDate || left.title.localeCompare(right.title);
       });
-    const byYear = groupBy(complete, (playlist) => playlist.publishedAt.slice(0, 4));
+    const byYear = groupBy(publicPlaylists, (playlist) => playlist.publishedAt.slice(0, 4));
     const years = [...byYear.keys()];
 
     grid.replaceChildren(
@@ -246,11 +253,14 @@ async function loadPlaylists() {
       ),
     );
 
-    playlistCount.textContent = complete.length.toLocaleString();
-    completeCount.textContent = complete
+    playlistCount.textContent = publicPlaylists.length.toLocaleString();
+    completeCount.textContent = publicPlaylists
       .filter((playlist) => provenanceFor(playlist).fidelity === "exact")
       .length.toLocaleString();
-    trackCount.textContent = complete
+    reviewCount.textContent = publicPlaylists
+      .filter((playlist) => provenanceFor(playlist).fidelity !== "exact")
+      .length.toLocaleString();
+    trackCount.textContent = publicPlaylists
       .reduce((sum, playlist) => sum + playlist.trackCount, 0)
       .toLocaleString();
     unavailableCount.textContent = RETIRED_SOURCE_COUNT.toLocaleString();
