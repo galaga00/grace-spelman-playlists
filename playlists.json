@@ -9,7 +9,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0201c7ad122d7ed912a2d0fb29ab67616d00001e021075f281ba0e414b08c82ab8ab67616d00001e02b8442651c8177ff950744441ab67616d00001e02fc8b40d9aba5ed9b2ddd9f64",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/songs-for-walking-around-a-new-city",
-    "note": "A complete public playlist ready to open on Spotify."
+    "note": "A complete public playlist ready to open on Spotify.",
+    "provenance": {
+      "method": "subscriber_email_playlist",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0Gso5ZnuABu0Qw6Bk4ZNPh",
@@ -21,7 +26,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e020de2fb7fcc6d57fb60f58b9aab67616d00001e023e432510c62fb20870cdd410ab67616d00001e026a474092e89f845751c6701eab67616d00001e02ab1229a45362b56b4d06a405",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/new-music-friday-please-do-not-let",
-    "note": "A complete public playlist ready to open on Spotify."
+    "note": "A complete public playlist ready to open on Spotify.",
+    "provenance": {
+      "method": "email_rolling_snapshot",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "7jeBiKkNXm3r3439kndux1",
@@ -33,7 +43,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e024b139bf6224f8f7eae9b4b0eab67616d00001e028ae20be8c87a6b90d02cf1b2ab67616d00001e029504639b4636d4a1bd8c8a7dab67616d00001e02b1235c0092f6658466e96819",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/songs-for-watching-a-summer-storm",
-    "note": "A complete public playlist ready to open on Spotify."
+    "note": "A complete public playlist ready to open on Spotify.",
+    "provenance": {
+      "method": "subscriber_email_playlist",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2Bs6jY7lDhMxyMJPgyBcy4",
@@ -45,7 +60,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02a9b6153a531deea48b17b26bab67616d00001e02bd4f48fb99fe34b4ae590752ab67616d00001e02dfdedd4553b40bbaab342daeab67616d00001e02f7d7e4d32650ff12f627abe9",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/the-perfect-songs-for-a-cold-beer",
-    "note": "A complete public playlist ready to open on Spotify."
+    "note": "A complete public playlist ready to open on Spotify.",
+    "provenance": {
+      "method": "subscriber_email_playlist",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "3kNqHSYHRkjMBdtMJoKbcs",
@@ -57,7 +77,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02913f492347e1585748450855ab67616d00001e02a7ea08ab3914c5fb2084a8acab67616d00001e02bcae489ac593de44bd9bda54ab67616d00001e02e6272ad26e7a55bc342a6dd0",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-playlist-for-a-summer-block-party",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 36 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 36 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "24vstHwOIDRqNf6jW4q7k8",
@@ -69,7 +94,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e023b06adb64209cad4719123e1ab67616d00001e024457fd3af77c42bb80c1da63ab67616d00001e02ebcc9144c41ae7d42efe6d94ab67616d00001e02f98081480318cb35623e1350",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/how-about-just-15-songs-ive-been",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "31sHjdrWReX6LcJRWqwPMp",
@@ -81,7 +111,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0228699f3531d23dc71e320370ab67616d00001e029e1cfc756886ac782e363d79ab67616d00001e02ce68707cb2112185b7d9149eab67616d00001e02f1b39672db011d3d9b9140a1",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/songs-i-fantasized-driving-to-when",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 71 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 71 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5HUNV3sandkpFxWhmNnIk0",
@@ -93,7 +128,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0240b1c58c79f08ec33ce11f77ab67616d00001e0241956b9da71468fa44bd25cbab67616d00001e029e4853f5de2296e71f95988dab67616d00001e029fba2d0eb492bcbaf1a3b881",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/early-2000s-songs-i-was-obsessed",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 43 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 43 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2O04wpYS9H18ZB2e1CmRwy",
@@ -105,7 +145,12 @@
     "image": "https://mosaic.scdn.co/300/ab67616d00001e023d598aac2c037a46418ac01dab67616d00001e02830db3a4d9f85a5a811f2e7aab67616d00001e02c2051e257fca29adecca19eeab67616d00001e02ca2f2f7e78df204fd18fc65d",
     "note": "An exact 45-track archive of the July 17 list.",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/new-music-friday-tons-of-great-new",
-    "spotifyName": "Grace Spelman — New Music Friday — July 17, 2026 — Exact Archive"
+    "spotifyName": "Grace Spelman — New Music Friday — July 17, 2026 — Exact Archive",
+    "provenance": {
+      "method": "google_doc_text",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2K8yHhqAlPuo29Pntnw9Hq",
@@ -117,7 +162,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0229fc151a03bc32dc22fd8ae6ab67616d00001e022a6c0b4ab668ae072da5af71ab67616d00001e022b688ab63b1a5f281cfdf451ab67616d00001e029e43c63fdc900e6b70cb2e2e",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/songs-that-feel-like-being-around",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 40 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 40 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0YGfVlXeYlfmk8cPRcFqr3",
@@ -129,7 +179,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e026a12b209185b576cf836efe3ab67616d00001e02957ee6f98472be24163ae296ab67616d00001e02f1111b4b0a9f611b0838053bab67616d00001e02fdbece75f77242118361780d",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/i-have-been-called-upon-to-make-a",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 46 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 46 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "1Y3XWtN6GAKNkz59wZ9jUE",
@@ -141,7 +196,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0227581932f00ce4e51f02ff19ab67616d00001e023055e4d18650245f4723523fab67616d00001e02708bfbe1855174ebc9a0f225ab67616d00001e02d7a50eed64c5edd3b007cd31",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/songs-to-play-before-the-date",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6LnadsTpzDJkwwMhKYjGDH",
@@ -153,7 +213,12 @@
     "image": "https://mosaic.scdn.co/300/ab67616d00001e022bf4cfe440827f633bb34959ab67616d00001e0243aa5a8328085cfb91d45349ab67616d00001e02e21116214662573eb5506b2fab67616d00001e02f75d1e1a58c34517516f84ad",
     "note": "An exact 37-track archive of the June 26 list.",
     "spotifyName": "Grace Spelman — New Music Friday — June 26, 2026 — Exact Archive",
-    "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/new-music-friday-carly-rae-rocksen"
+    "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/new-music-friday-carly-rae-rocksen",
+    "provenance": {
+      "method": "google_doc_text",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6unyODd8zdk5oZkEqq2aUd",
@@ -165,7 +230,12 @@
     "image": "https://image-cdn-ak.spotifycdn.com/image/ab676d63000076a0df0762d991b421299405fe26",
     "note": "All tracks from the linked albums, plus “Image” by Magdalena Bay.",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/10-albums-that-feel-like-adderall",
-    "spotifyName": "Grace Spelman - The 10 Albums That Make Me Lock In And Get Work Done"
+    "spotifyName": "Grace Spelman - The 10 Albums That Make Me Lock In And Get Work Done",
+    "provenance": {
+      "method": "linked_album_reconstruction",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "1StajG0EdsvO5EhV7ZPbW2",
@@ -177,7 +247,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e028e8c08ca2feb999bb84f05e6ab67616d00001e02acb3850df0d87236654b273dab67616d00001e02cf390065f5a3336f12143e16ab67616d00001e02e0edb61a25fe2d451f8a45bf",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-playlist-stuffed-with-popular-songs",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 126 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 126 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6sPu6JeTgSZK5Ed4lGbeD8",
@@ -189,7 +264,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e020611e65ba66e3946c18c61baab67616d00001e02351840bdd9d8d190ad8dc9c4ab67616d00001e027dee8b5147b3a0a0649d4f8eab67616d00001e027ee75711fcb33ae86c291014",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-playlist-best-played-on-a-paint",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 44 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 44 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4jVC1VlAmOy37yXgtDeFVO",
@@ -201,7 +281,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0202ed9d8a9c8d138641861c1bab67616d00001e021bc47b0dbddd7142c9a2ebf0ab67616d00001e022e3b6f41957b2df1d3e98ac1ab67616d00001e0280621fa8d5a85d3e94869671",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/my-favorite-songs-with-handclaps",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 30 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 30 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "69jQJ0kHJHjbG1a8BBKeN0",
@@ -213,7 +298,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e028155dc4dae262f31d39d8296ab67616d00001e028611fc35dff9ef183b27ebcaab67616d00001e02988970b40aca1d4cfb3edc3dab67616d00001e02f2b52822fe54084cf07bfe02",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/your-hangover-just-got-the-perfect",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 31 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 31 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6Va7IFWkMcolplpDzo4lz5",
@@ -225,7 +315,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e022b74bf21c7e4f56758610949ab67616d00001e0253e10b63c25c7f7a3d7e0f9dab67616d00001e02cc68329bfbf34037df965dc1ab67616d00001e02cdb645498cd3d8a2db4d05e1",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/you-asked-for-it-heres-a-playlist",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 21 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 21 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6efDOpOmVyVrBtn7Y76NYr",
@@ -237,7 +332,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0225a647ace83ba32770ab5d0fab67616d00001e02775f28b18db542ae81fafee3ab67616d00001e02a88161722537fd72cc9c74b1ab67616d00001e02d4c317bb44f2a29d00316ab5",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/new-music-friday-charli-does-rock",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 51 playable tracks in order."
+    "note": "Copied from Grace’s rolling playlist on August 18; the historical May 8 track list still needs verification.",
+    "provenance": {
+      "method": "late_rolling_copy",
+      "fidelity": "historical-date-unverified"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2VI9XzaxCjF7iBLfsuRhJQ",
@@ -249,7 +349,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0226f1f508b8cd08723d9319a4ab67616d00001e02506e0c9746d7d7c8dddefd24ab67616d00001e0282132c6ba00e09cf0789d99dab67616d00001e02ee0d0dce888c6c8a70db6e8b",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/songs-i-listened-to-every-morning",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 18 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 18 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0pkIIPSIU7YLBDfKt9W2Zq",
@@ -261,7 +366,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e024c6a0c9499470002aa8ba96fab67616d00001e0261b7b7e6fd3cf161dc45c88bab67616d00001e02a4b3a51e2b3941f5275f052fab67616d00001e02fd69099343fa7827e78cca4b",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-playlist-that-feels-like-youre",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 53 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 53 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4swcApGCC0iErJMS3btU79",
@@ -273,7 +383,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e021d37eb3c0f1c438c4338d68dab67616d00001e02375f3b7b1e2a3e4fe4704596ab67616d00001e0243c4820b8818d8c628d77e8bab67616d00001e024d91f99d2ec809e4f5e05666",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/songs-i-throw-on-when-spring-rolls",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 12 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 12 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0i1J4VJTw1ayiDd37Fk6bo",
@@ -285,7 +400,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0203a65555dc780c3a35139055ab67616d00001e0213240eb8a1120a344f83542aab67616d00001e026d6b57d4fb4ebea58c7ea97eab67616d00001e02d5c610ccace6701215d53246",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/i-made-a-morning-playlist-perfect",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4Nxe5DGoBhoYQmbBzbYbpG",
@@ -297,7 +417,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0221dc7c372862cdecb6e22785ab67616d00001e023a96dcf88b77fa476cdf64ceab67616d00001e0262d5e507fa3fd471dafd52a9ab67616d00001e02b62ac1b4b96f9b2b7f953bd1",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/i-love-a-ghostly-woman-singing-about",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4LN9Npe18qHrYbLpfvP1JR",
@@ -309,7 +434,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e020918f74cd930e26394c2c346ab67616d00001e023d19ac213813d01b7d449d05ab67616d00001e0262d97ad40df100683b9200f3ab67616d00001e02651f2b12c82f75fb2bac4f01",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/im-always-going-to-give-it-up-for",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "3mo4SXS4LHXWfolW4qsJnF",
@@ -321,7 +451,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0212da16fd0dec009d45f7dca3ab67616d00001e025973d98ea01e37a7a7fb5295ab67616d00001e0263facc42e4a35eb3aa182b59ab67616d00001e02816243514f01ac30d0932622",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/the-spice-girls-were-operating-on",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2AVwIYZXl9OTzvDOoGaerD",
@@ -333,7 +468,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e024049dfafed38fcb64836d374ab67616d00001e02811671051785336a51f4f858ab67616d00001e029f0b3ddaa8899d7a29b6fd50ab67616d00001e02dad1572c4d7e074bd190e4f3",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/themed-party-series-80s-miami-party",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 38 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 38 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2NEUhQvjOYVKumzf5jzIm1",
@@ -345,7 +485,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e021f44db452a68e229650a302cab67616d00001e0230e09d46193d94ec53b4c096ab67616d00001e02bfef9c5ba47ed5a177e5181cab67616d00001e02ebaebf7c998f0fc4c7ca07b3",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-song-with-major-interstellar-vibes",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5agZl5PZkmbKYJmcjxMNYd",
@@ -357,7 +502,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0231cbf987243e38380bfbcfe5ab67616d00001e0243a0feccbb42083636880af6ab67616d00001e0287b0f988514f885544d08e0eab67616d00001e02f0366aef3726f41e8d482a8b",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/guitar-nerds-i-need-your-help-again",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "18NN9ef2rrI4nIn6D2NDfS",
@@ -369,7 +519,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e021d50ed2e7805e5dedb19ea22ab67616d00001e0271c4c3087c137f63ae9ed94fab67616d00001e028d31ceb0eb59bd9444609ce2ab67616d00001e02ec7898a4ed10f186b8db8a3a",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/i-found-the-best-remixes-and-mash",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 45 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 45 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "08ycxJqZwzeGpSvFqDPif6",
@@ -381,7 +536,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e020bc24b6400fb40a0a034e215ab67616d00001e02309cd494416f90d5960f30daab67616d00001e025fc7d45e54737b40d62e07caab67616d00001e02b58aae7b21918689bd2ee7a0",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/two-70s-funk-songs-that-make-me-want",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "32NAHhMlHZpVkQ4iTYt4fA",
@@ -393,7 +553,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02622e8921ae2d4a48b508be5eab67616d00001e02abc5193decc1a2984a93f31eab67616d00001e02d7de90b4628456f13fe629d2ab67616d00001e02f201eaede4f6a6a071e64a83",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/this-studio-54-themed-party-playlist",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 108 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 108 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "3coTBOruEo6ovLBXe1aED5",
@@ -405,7 +570,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0212ca1cd8c311b02dd1d2b144ab67616d00001e02151317b361cb89b3a014dd07ab67616d00001e028acb5b1840b592682b79a53dab67616d00001e02a53b5d7febb3c8016bd9e96d",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-song-with-unique-instrumentation",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "3fZ8OagsjgGygAWgRx0Khh",
@@ -417,7 +587,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0223cc0f0a925845a3de4aca38ab67616d00001e0254ab617bc2d4974ab6ffbeceab67616d00001e026e88eb6508fd94cd1b745ce2ab67616d00001e0271e557eb2af8e08ec44bfc84",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/songs-in-which-the-singer-goes-uh",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 18 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 18 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0WJIuKmBvnyyvwhMYVL9Al",
@@ -429,7 +604,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0230d93b9cce660d4f56770efbab67616d00001e02889741e4d5cfc40e4610770cab67616d00001e02b740be7b85f0df35135ffb05ab67616d00001e02cdd17158746e5ba600b0ba40",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/two-really-great-songs-for-running",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6plTd4WNfhrLXP9wm6nz80",
@@ -441,7 +621,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0208f61e901ab38b40a485884aab67616d00001e0212dd7dcec66b6d230a719a5eab67616d00001e02c22424eb54f4132e30efa886ab67616d00001e02ffffe932598090498459b77c",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/my-favorite-songs-where-the-vocalist",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 10 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 10 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "07vrutmTfSgAcCBOomkM1U",
@@ -453,7 +638,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e021bd02c24b7175c77f21ce4e7ab67616d00001e024b7fbb849ed845ddedcce346ab67616d00001e02cf1f6466a493eb73d6d9d280ab67616d00001e02fd69099343fa7827e78cca4b",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/im-digging-a-song-that-reminds-me",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5fUMesUo68Y0qM92yAX6Az",
@@ -465,7 +655,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e020f35971eef02545ebc484adbab67616d00001e02766c9806d550d3614d50695eab67616d00001e027a21a301aa0eafc2ec9e8582ab67616d00001e029eabb48276303ac988847bf6",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/guitar-nerds-can-you-help-me-identify",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6mkMCuA31mIcEpVcRgJANx",
@@ -477,7 +672,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e022f4fdec8a8cd14bfcce6cd9dab67616d00001e0232aad850786b1209cd4a197eab67616d00001e02c98d704be789c962e9a7e121ab67616d00001e02f12f8e33e377ba119ecbd26b",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-sexy-fancy-winter-dinner-party",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 55 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 55 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "77wZUpWLRDjM5idOtjkdSz",
@@ -489,7 +689,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0225d1ef49e7e6de7909c50634ab67616d00001e0267d278102a6833fdce9eef12ab67616d00001e02684ecc5bc1b724d0106ad694ab67616d00001e02eff6a0c15cdefac1492b07e0",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/good-music-to-write-to-unsurprisingly",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0woE1y5IHpFQQIdDLL36k6",
@@ -501,7 +706,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0207c4d704774a55c087cb70c7ab67616d00001e0221777c28aff449cf0c4c2334ab67616d00001e02469baff11355bdc545ed75f5ab67616d00001e02616a5e6c01042cbfae81b725",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/i-love-the-track-listing-on-us-girls",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5LlaNmm6lZZtqMvvmKenKv",
@@ -513,7 +723,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0202a753397aad35f199918c53ab67616d00001e0213c617eec149b361c0594537ab67616d00001e0213eef4698d3ac37e2757c9afab67616d00001e02e6c8b50abb724144529a64a9",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/im-launching-my-themed-party-series",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 55 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 55 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "7j3ezrP0bi3wngs7p8xmDs",
@@ -525,7 +740,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0210fe60e9e6b45f6ec749990aab67616d00001e02318da7709ad350a3a68edc07ab67616d00001e02bca9c14dec8317c0edabf931ab67616d00001e02be23f47224937c9b57a004b2",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-japanese-album-built-entirely-from",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4KQ1AsorG2rmCq9C0LTD89",
@@ -537,7 +757,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0280be4fde71756a73f5ab8dfcab67616d00001e02a458fd8861f42597bf3f1e02ab67616d00001e02af34899d73a5054879c49ef1ab67616d00001e02c8a653187c7160198b48c11a",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/an-afro-brasilia-song-with-people",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6jEZ4G43Yz3xwYqsh8MVtX",
@@ -549,7 +774,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e022e01bd3a6ebc8c9bcc0b4e4cab67616d00001e0252038992fc6d7868f31d23b7ab67616d00001e029860171ddfee17f77a570cf6ab67616d00001e02fb7263efd4dcbbdd162781bd",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/the-songs-that-make-me-feel-like",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 39 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 39 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "7p9GgHFx8FVDVVbHqOpRdz",
@@ -561,7 +791,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/6eeea89255ede0490d4a3414511611e0d5cc4c99ab67616d00001e0279ef57ebdd55cc428dfd90b1ab67616d00001e02cf1b155dff4453f3586d4a0eab67616d00001e02f45cbc258c6a36d22f9e06b5",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/japanese-psychedelic-pop-a-song-i",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2p7kjbVhJGBTPKtIm4w1lf",
@@ -573,7 +808,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0225e14930ba94a546999e4c75ab67616d00001e02962d13a0f554862396677a45ab67616d00001e02c3402fef26d95ccdcaceaa2dab67616d00001e02fb01ffa5b42745650131aefb",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-multi-genre-playlist-of-songs-that",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 35 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 35 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2v8Repq1Lbn2xNsuMwVb80",
@@ -585,7 +825,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e025bfbfaae1a5deef223f1964eab67616d00001e0289b56f56323925d57b38944dab67616d00001e02cbe24b2309543ff663fedd6bab67616d00001e02dcfc866e6528b99a003d63f1",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/5-songs-i-need-you-to-hear-this-week-671",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4ZWi0hFJUCo5K6uJY4CFT7",
@@ -597,7 +842,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0263805fb2bf64038c5838c64bab67616d00001e027e8b06fb879f6d9a3d3b46adab67616d00001e02ad2fd845eaf5947e7f5159e0ab67616d00001e02f6602ac2ef4fb8b13f62b638",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/10-choral-songs-that-make-me-cry",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 10 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 10 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0uKonpJkXTCqirD0svIqJp",
@@ -609,7 +859,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e020f35971eef02545ebc484adbab67616d00001e0213c077c33c551f92dca99a20ab67616d00001e02292b565c9a3ca7f01ddfc464ab67616d00001e028b9ac5de916d7744813e23ac",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/5-songs-i-need-you-to-hear-this-week-0af",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5jgCdOLFJm99xjoJGiMOT7",
@@ -621,7 +876,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0215dd2fc9aa1109bbe1456916ab67616d00001e023b0e0d19618f2dec4531f368ab67616d00001e02a33024af69e0bcf087d3e20aab67616d00001e02d1d5968435c5ed8868324f9c",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/here-are-the-63-songs-i-consider",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 63 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 63 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6us0vm2xjVyKgBFFXsyGNn",
@@ -633,7 +893,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0219757748948360872bd77a95ab67616d00001e02bc18bdade69ec5ef0bb25b17ab67616d00001e02de17893c581b6f4fbeba51e1ab67616d00001e02f88b43d15fd14e9525338b59",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/my-favorite-songs-from-the-last-20",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 39 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 39 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5OpcW42R0gU7x4zlD9djhG",
@@ -645,7 +910,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0208256748d3e6c3ed016cab16ab67616d00001e0250b7b93eaed752afff91d02cab67616d00001e02521904a6603699fe6e4e55ccab67616d00001e02d552416cafb8792b442655b2",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/5-songs-i-need-you-to-hear-this-week-39a",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4Yq3hvotlwMDMfVvur0ifA",
@@ -657,7 +927,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0210529c9b699d80ba9d312202ab67616d00001e0232aad850786b1209cd4a197eab67616d00001e024a147d384370e17f05471d0dab67616d00001e02d740b9b24ff9c111617136e9",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/my-favorite-songs-about-new-york",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 42 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 42 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2rPCPqC1rieUCWPXIOf9DE",
@@ -669,7 +944,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e021d267fad69d815b70a657873ab67616d00001e024a19c14d2b2ff6f1812b8174ab67616d00001e028fd162166aa20d86c560c77fab67616d00001e02cd3a8ae57cd544a7f2c56125",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/5-songs-i-need-you-to-hear-this-week",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2jNPhKDNlYtk6QvqCf6LkR",
@@ -681,7 +961,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e022e7558daae7a80e1f5819aa1ab67616d00001e02a4c3e2ce4bb985d6c4a28f64ab67616d00001e02a68275173c04ac83700cd1f8ab67616d00001e02c70aa05c55b6fb116863f6f5",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/six-beatles-covers-worth-listening",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 6 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 6 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2aqi1kNojeQSM0mgkl4mEW",
@@ -693,7 +978,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e020616c8f75f70135bc30e6cacab67616d00001e020aaf76a18898d0b63a9ff455ab67616d00001e02c9281db15ef83b5f2ef5a9b7ab67616d00001e02e3d69e17dde129037a1f09e2",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/the-music-my-sister-played-around",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 10 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 10 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "3IZTtwzpQt3qYdSkdlshNn",
@@ -705,7 +995,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02750907eb579cfdf55d087581ab67616d00001e02863e0e305637100311c91aa7ab67616d00001e028dd3de00a87d20e26803ada2ab67616d00001e02edad20bf5cb7dfee9bfd0ac6",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/i-made-a-playlist-for-people-who",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 28 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 28 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "1JrsXnH1QwGrAUd3y46bLb",
@@ -717,7 +1012,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02279815f409c0034fc752cdfeab67616d00001e0245e82ae0372a50834825c018ab67616d00001e024806a1c10aa685b1b936158bab67616d00001e02a92d8d35b9981bc379cedadc",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/five-songs-released-this-month-that",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4zfuJ51C4ICdQYC3fplhll",
@@ -729,7 +1029,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02216fb032e2624c9cc4b57d67ab67616d00001e02660aadbda2da6b1c2dd3d1a5ab67616d00001e02897cd4eeff3174110aa6230bab67616d00001e02c389110337452bfb1dd42bd6",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/these-are-the-10-greatest-film-scores",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 10 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 10 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "16hSDUpgj28FzzgjcGPdtq",
@@ -741,7 +1046,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0282dd34c5535050c6b4b37295ab67616d00001e0295e5c81b2cb34b262713452cab67616d00001e02b7772eccc2b52f6b3aacbcb9ab67616d00001e02cb53aff3036cf65df48f50f6",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/heres-a-little-6-song-playlist-for",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 6 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 6 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "63wt9ZCY742vgNInqHomtC",
@@ -753,7 +1063,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e022d64d463588dfdd16aacf37eab67616d00001e029565c4df27be4aee5edc8009ab67616d00001e02b165e01b90417f18fd7cecbaab67616d00001e02f8e3c4ffc4c8f747b397d4a7",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/listen-to-these-six-songs-before",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 6 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 6 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "265wpfShpjyiljfEEevAbF",
@@ -765,7 +1080,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0215743f44909c48a11a1f0003ab67616d00001e021aa45f569da94400a21fbae6ab67616d00001e02626016953b03b5df2f118350ab67616d00001e02abedff4e6f807e670f67e74f",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/i-curated-some-music-for-a-downtown",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "7J3aPnFkegerKGOfGWgz4e",
@@ -777,7 +1097,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02200126ddf657c0b1dbf103edab67616d00001e024637341b9f507521afa9a778ab67616d00001e02632b907273dba6a6062fb780ab67616d00001e027d419ac975423c069995c7bb",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/the-classic-rock-songs-that-kick",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 22 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 22 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "3RG8mbyoNcBvtdvdunPN47",
@@ -789,7 +1114,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02225ed6765d9a7122afe9a9f4ab67616d00001e02385779140f962fa644d13a85ab67616d00001e026949beed2f45233acdefae25ab67616d00001e0277c0cc908f4003c64df33af3",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/here-are-six-songs-i-want-you-to",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 7 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 7 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "09dy0BqM3a4gk1LkK3aiW6",
@@ -801,7 +1131,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e022c07b2e8a51cec53f1d3607aab67616d00001e026b43fc0ad8ad061099a4a553ab67616d00001e0295dc24d14a54f46da5f6f278ab67616d00001e02b1863bf95557ea7f357c4947",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/spend-the-weekend-listening-to-these",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 6 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 6 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6cOsoQxYdlaHrPIoF8wOfM",
@@ -813,7 +1148,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e022f1788e86ae4f04e243459bbab67616d00001e027d9cf15a27f29ffc8ef01e8dab67616d00001e02b91b4ade012ef3a2448e3a96ab67616d00001e02fd1f4f728a1168da26037477",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/seven-songs-id-like-you-to-listen",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 7 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 7 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4hmTnGgZ8agJm3CalrjofM",
@@ -825,7 +1165,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e023987809e532a215c6b627848ab67616d00001e026502456e034ffbacf72f0c2aab67616d00001e0268b7045f5f4fe668a646cd2bab67616d00001e02f4fffe1d70f039b4c5989201",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-playlist-that-feels-like-walking",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 30 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 30 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4x39ziVA9ImLUMn20xuDTm",
@@ -837,7 +1182,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0252501e69190f5d7b6c9f7ab3ab67616d00001e029bdef9fc818f22b4c85cf2b2ab67616d00001e02b006f089af4d18d351f06c60ab67616d00001e02bd9951bb4c9813bc540bde1d",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/i-think-you-should-listen-to-these",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 7 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 7 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6qlAHr2h656KweEkXzJz7h",
@@ -849,7 +1199,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e026950b28ad6f43d234555a52bab67616d00001e02a591b34d45d0039d5c2d1479ab67616d00001e02a8a297ffa5d664fc2876ba72ab67616d00001e02ffdb7fc93aa60314952d70a5",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/5-songs-i-need-you-to-hear-this-weekend",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 5 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5czfOEoXZTXPKQxic6UPWT",
@@ -861,7 +1216,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0207744e2ed983efa3e6620a47ab67616d00001e0249ef92466064dfb692540ba3ab67616d00001e02ddf67d3a0c1818ca06f23891ab67616d00001e02e21cc1db05580b6f2d2a3b6e",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/my-special-playlist-of-good-songs",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 17 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 17 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0ZPFAe1kI0S6c2hrrj6MWW",
@@ -873,7 +1233,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e028db30ce39205d3df95d3aa88ab67616d00001e02c3ffc0e581d6e27302c31ef8ab67616d00001e02d5a178ffe212e58a52239fefab67616d00001e02fdab242b02783baa895a5a70",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-44",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5178Trk8fzqtiC3ThTjWbO",
@@ -885,7 +1250,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e021a2cab2a485f188558bdd08eab67616d00001e02242f9bb1dc0931917ca854f3ab67616d00001e0226c15ffd59c51744a14f3831ab67616d00001e025a10dfac1d622b4a34632b99",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-43",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5KozAo7LOuoiDyocDzAdQl",
@@ -897,7 +1267,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02357b215562c3268ed1022942ab67616d00001e023c37b8f92f36f632dc620d70ab67616d00001e028a5235b2f79bd5dbb7f2686eab67616d00001e02943fe2781dd19bf510f71340",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/this-canoe-guy-i-follow-on-instagram",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 19 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 19 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4TE4TIJ3ReCxAiJBBgftBu",
@@ -909,7 +1284,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e023ed7d0111f24627cdbc97928ab67616d00001e027ce45a1083d80c29d658537cab67616d00001e02d7de90b4628456f13fe629d2ab67616d00001e02d9ac65941679b76106866c87",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-summertime-backyard-dinner-party",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 28 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 28 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "3KTFNKJKgxj4iHtkq69cC6",
@@ -921,7 +1301,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e028d7690f3377f61bfff8e0c03ab67616d00001e02c4f672078a1e58460b23e1eaab67616d00001e02d8e0e065037b496212e554b7ab67616d00001e02e3deeaf64b9859defd8122ac",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-42",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2a3t7k2dTjnCOny1prrEa8",
@@ -933,7 +1318,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02128450651c9f0442780d8eb8ab67616d00001e021e129eb9e8f65e52f372bee7ab67616d00001e02ee0d0dce888c6c8a70db6e8bab67616d00001e02fd3f66a9ce4371f7ffa0346f",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/seven-hours-of-grilling-music-i-crowdsourced",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 90 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 90 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "1rcfY3WDYjPyhBrIGtmNh7",
@@ -945,7 +1335,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e020a5d8269470a6b004c7d5b67ab67616d00001e022cb0db99d7cf0db7c1546e5cab67616d00001e028ce8e9530b875fb9d01a11d8ab67616d00001e029496c6de2632209d90d0f932",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-41",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "3el3itBaLhLGdd6iJLIhtO",
@@ -957,7 +1352,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e021632a3471f540e11ca62f04aab67616d00001e02ab6afd663f2a91dfb9d69479ab67616d00001e02b3241dc75e8ffc1e9cd12091ab67616d00001e02dc6b1a7c9f5a7049c01926bc",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-40",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "1zSm6GIaVEApiEEsWJ1CPt",
@@ -969,7 +1369,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02a7c2b23bc5c9e79300c67ed7ab67616d00001e02ac4ebd092fa2cf210e4c8023ab67616d00001e02ec6e9c13eeed14eedbd5f7c9ab67616d00001e02fe6211303e796f3d5b7a0e02",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/the-perfect-lazy-beach-day-playlist",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 66 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 66 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2DyFcTFI0oRkPll4PViZQq",
@@ -981,7 +1386,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e024996f1435bae12af5942c674ab67616d00001e02707658813c85f7fd1d021200ab67616d00001e02a002a6cba2971731b92eecf9ab67616d00001e02f4ebc0858f1bd44195760eb1",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-39",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 17 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 17 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4bz5usoyZvxCX9bDtZQZpi",
@@ -993,7 +1403,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02193c2fafdce8f116b5ca0a78ab67616d00001e0236bbfd482798a06c10c85771ab67616d00001e02aa3363d587232b8f388da0e5ab67616d00001e02f97706f582c39b541fb0ce21",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-chill-summer-day-with-nothing-to",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 70 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 70 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4fscI7EkxmE0DIHDbiCvjr",
@@ -1005,7 +1420,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e021f02887cb3061eb3ff9a2ee7ab67616d00001e022e7350fecad7957d7b070e69ab67616d00001e02549d3f4a6f53e2c0cd9c5f40ab67616d00001e02961ba349aa27ac83bbdc2665",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-38",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0fdbO7LKVjFfbOv7dAYdG2",
@@ -1017,7 +1437,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e029f0092345908f5516c01deafab67616d00001e02b48a080b2b7b05ad4d9ca8a0ab67616d00001e02dcd829318f889df294d2bb7aab67616d00001e02f45505e16151674b52fb4a88",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-six-hour-playlist-for-chores-and",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 86 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 86 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6VcGa9hZkXwPuXsJtIiTjM",
@@ -1029,7 +1454,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02251a675a8a3fe7a25887aa3fab67616d00001e0294ff21e7129facecb73ee0c2ab67616d00001e02a831e130300dfd4d46646d47ab67616d00001e02dc411c2e9074cccc4c1d6475",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-37",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6nhfe7mUepqV6av09iK42u",
@@ -1041,7 +1471,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02058d21f9f2141787e3156a3eab67616d00001e024eb7ca5972d24c9aa0a1154cab67616d00001e0257cc241e3fc4e95eea8c4b20ab67616d00001e02a5d7d43fae1f8b6f0e9f9c5e",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/two-summer-rooftop-playlists",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 39 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 39 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "05yTXr1BYVSGWfa5pgClhO",
@@ -1053,7 +1488,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0226b6021a4ec9542fb22a82f7ab67616d00001e028d68f68f90ffcde8893f08c2ab67616d00001e0297b7fe5562d19536aa6dc068ab67616d00001e02da89a46b20a6adeb03bbdf95",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/two-summer-rooftop-playlists",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 30 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 30 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5JqktiYceKlYCkr1Pzcggm",
@@ -1065,7 +1505,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0201bc0bab287007be68fe357cab67616d00001e0258635fa3630d0bf68309ce31ab67616d00001e0266d723fff3af20ff18da259cab67616d00001e02c98277eb4535eaeb19f403cc",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-36",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "1iwECb1vyr1fvUbvAiBVHh",
@@ -1077,7 +1522,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0218b36d985b0ae01163ca9cf6ab67616d00001e028cee2552556239686dc58a1aab67616d00001e02aa6894c7400fe03b43351b61ab67616d00001e02ad5816c6fafdf2876de8aca9",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/the-pool-party-playlist-that-makes",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 47 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 47 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5Sdnd7NIhiqiPQYZhEMiHf",
@@ -1089,7 +1539,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e020e70c303883fd10948f304b6ab67616d00001e02c951ad1231432817d068c8c7ab67616d00001e02d25c579ea362aeee960d0d6bab67616d00001e02efa1d750a5e46280df225aee",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-35",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5qj6yedC6KWJYV1nMAqsYY",
@@ -1101,7 +1556,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0244c9bf793ef4b48ba1f2b98cab67616d00001e028d61cbc54b841f6177aca3dfab67616d00001e029edb7fd52cbd12eb7493d9aaab67616d00001e02e5e845262fc8046b9150f297",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/for-all-my-tireds-out-there-sleeping",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 35 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 35 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "53dMaTWlh6yAIsGLY0HgM0",
@@ -1113,7 +1573,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0240b4c3e89be52623e2441bd2ab67616d00001e028b9ac5de916d7744813e23acab67616d00001e02d46213c0dd0b032092ea6db3ab67616d00001e02d85c957794c2a5b8b11de5f9",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/two-separate-playlists-for-driving",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 24 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 24 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "7iZHu2r1WSw2F2K29LSEUp",
@@ -1125,7 +1590,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e021de98a925e9fc72425ac6393ab67616d00001e02559bd53b0292ed01f789a0d8ab67616d00001e02cbecde9ce16b49d4593b6e6bab67616d00001e02eb512d1cf0ce0583f90fd2ed",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/two-separate-playlists-for-driving",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 23 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 23 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5sYR8E9jBtrLTyWFRFHA3y",
@@ -1137,7 +1607,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e028633aaa5f02a54efc8a5b255ab67616d00001e02a4c3e2ce4bb985d6c4a28f64ab67616d00001e02e1b90fa9cefbdf3b8cea6ce2ab67616d00001e02f6c8a43be83b2a6d2853c324",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-34",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5nSDzErfb5rAOhfzVluSbb",
@@ -1149,7 +1624,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0243ff13a6794289a6587961e8ab67616d00001e028024cf2dd75e1a129494c87aab67616d00001e029a6551bebd0713a350928897ab67616d00001e02dd1fa207bae05083a5131680",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-33",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6zzUbsa7vg0kzWZ2rUqQE0",
@@ -1161,7 +1641,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0209463748243490d780f62b2bab67616d00001e025f19f50677f8ded7021b8229ab67616d00001e02b85c8c5159de6c2d69876e07ab67616d00001e02edb20dff1db727d9c3a5dc2f",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/music-for-getting-amped-up-and-walking",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 67 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 67 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5IB5tdKqIlQVb5a59PP2Ql",
@@ -1173,7 +1658,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02432ba4afbfd0493f97768fefab67616d00001e0246db333d21daa08acf5312fbab67616d00001e02647fd4f77bee5cf072d7f8cbab67616d00001e02d88072425632010d5203a723",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-32",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4IhMMIFpCEpFgnyJNFmr1Z",
@@ -1185,7 +1675,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e022c70359e48904d6afc407019ab67616d00001e025a95d4af6138b232cef13e2eab67616d00001e0279708a357c25a8b6fb15bc75ab67616d00001e02d23f3cd05795137a95dc9db7",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-soundtrack-for-your-dream-tuscan",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 41 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 41 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "67voS2LAUHrinj2dRGDLv2",
@@ -1197,7 +1692,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e022d3d7288ef6f52fadd4098f3ab67616d00001e02313705413cb350f04ae4ee49ab67616d00001e0246ef374f1639b196e6de5ed8ab67616d00001e0299d472555cfdd68c1b05c341",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-31",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "31YVLAdXILWGT5fkoVhRWa",
@@ -1209,7 +1709,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0208fe0c9b647742b06d3b9f87ab67616d00001e026f1ffb635f599c7cad59ceb1ab67616d00001e027c6ab5513acd08fd96ec8328ab67616d00001e02c699d66824a938624c44c2b7",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-playlist-for-smoking-a-joint-in",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 35 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 35 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "00XPIH1CBAoyUiGR4XFqv4",
@@ -1221,7 +1726,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0218fda3c9580b94be358515a6ab67616d00001e0230a4ed1301ad18efda0d679dab67616d00001e0266ac0a1e7f9e605ccfb25b5fab67616d00001e026cda41c43601ec82ed81fd3a",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/heist-music-songs-for-various-scheming",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 81 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 81 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "79wBko2d9YoYOgnUhgPF60",
@@ -1233,7 +1743,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e026c0a880cfee4109a05095602ab67616d00001e027443f8328a2f0d3f3141bef5ab67616d00001e02a19ef54391057077dcf42b65ab67616d00001e02b06fec2ffbdb24faa70cb468",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-30",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "1NGJ4gVmmGhuxfxHVgKwpO",
@@ -1245,7 +1760,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e020b32045988bc7fb0d841486dab67616d00001e02b01baf6ace369691189b61dbab67616d00001e02b3ed19f9985ca08a7a30f6c4ab67616d00001e02d055a2b33f200b351f4364fa",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-29",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6dvc2THTqq3nND7Kv3AnuV",
@@ -1257,7 +1777,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e023b0e0d19618f2dec4531f368ab67616d00001e024879824a9f9e4ce27a086452ab67616d00001e02c6ce87b4d3d5b460ee0f8648ab67616d00001e02ec7abfb578913868047f27be",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-28",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4kHSUBd1ARrdWOatHLGu0j",
@@ -1269,7 +1794,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e027306cc70e6fd7464e59a0d20ab67616d00001e027bfdcc5707e04f9418d2b69dab67616d00001e02be23f47224937c9b57a004b2ab67616d00001e02de348ca63106ab1251063264",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/run-fast-btch-the-playlist-thats",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 97 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 97 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6m9Qlg6OdYQWt7Uf9z7G2h",
@@ -1281,7 +1811,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e029c11e6241d59940a0157c75aab67616d00001e02deed088a1a7d8d868c370976ab67616d00001e02e54a661b8aff6d4f2fe7aa29ab67616d00001e02e8be33a5e8efee9be2afffc3",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-27",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0mRaDRSdDMtDMRH4pz5Vvl",
@@ -1293,7 +1828,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02258152311d36cc59f779c3a7ab67616d00001e0266a22eb3d2c09ae57ee6c07aab67616d00001e0280621fa8d5a85d3e94869671ab67616d00001e02ff06b4c5cd1c51088a5d8521",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/songs-i-love-with-claps-and-snaps",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 45 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 45 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "3RxRmT7uZcG3E5WivFiAX5",
@@ -1305,7 +1845,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02041c9cfcb029a48a617e94efab67616d00001e021517575b0a59e2175b0b821cab67616d00001e024e938240e0a19e7c9bfbbb31ab67616d00001e02dd9a6c23a30e86f9e39fa9cf",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/runway-playlist-songs-to-stomp-to",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 20 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 20 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2YUYo0LBx2s1O2gcwL9vLG",
@@ -1317,7 +1862,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0228b476821e82d2ba009b0361ab67616d00001e026f2f499c1df1f210c9b34b32ab67616d00001e027aebbd28dd4cfaca652008b7ab67616d00001e02fb023e6073e38a52082cc7b6",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-26",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6rTpXkDLDFQWcwTEy0Pf3d",
@@ -1329,7 +1879,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0233e3c504a10c5403ec73f8cbab67616d00001e024b10d0325d3f46b212091eaaab67616d00001e02bb01f0ca02c204d13933ca06ab67616d00001e02ce372b493d53ce044b28cf15",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-25",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "3O8o25Em0BbSkTLT6XLedS",
@@ -1341,7 +1896,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0284b6abc19fb31fb382378bbcab67616d00001e02b36949bee43217351961ffbcab67616d00001e02c174bffb607ee576329291a6ab67616d00001e02c3acb15b9f2580513e1d2bad",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/welcome-to-the-album-my-favorite",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 57 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 57 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6ojTXdtB4gLDMcs3m1YFJR",
@@ -1353,7 +1913,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0295b77c091ab5dd5b889cefd2ab67616d00001e029effb26eea559ce6f3fed751ab67616d00001e02c0a2ab23c9647387fb4da61aab67616d00001e02f1a1c15f81a1481384b1d1c1",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-23",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0f4yfKUvVn01nvZvHTyEsE",
@@ -1365,7 +1930,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e024738aa171569052376f162feab67616d00001e025e25e034e25258b356774c79ab67616d00001e0278d8a5ed1a5fb3bf35bba582ab67616d00001e02edd364b4d7ffb5155ccd4ca9",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-22",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4AuxrJz6Hx5tDw71xeoQR1",
@@ -1377,7 +1947,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e021b0b38318e394f5fb856dc12ab67616d00001e028ef0ac5a19d986e0aad2f0fbab67616d00001e029d4a9519837fdb96a99e7271ab67616d00001e02e80099fa0e033e5dcaf17c8a",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/finally-a-sexy-playlist-that-doesnt",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 34 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 34 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5owKhvDHOtboVt2hOBB8r0",
@@ -1389,7 +1964,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02375f3b7b1e2a3e4fe4704596ab67616d00001e0267f33caa9c7a9ddd76f7b038ab67616d00001e029c07ff2d953fea0ef64d17f9ab67616d00001e029d470e602919ac309d24f746",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/songs-for-refining-macrodata",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 28 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 28 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "56L3yaLvNnX7uJRs5xOalr",
@@ -1401,7 +1981,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0223ce0637df7ead27b2d31590ab67616d00001e0225dc8bcdac613b94a09b9ac3ab67616d00001e02b3a18ce7493529a2f964b487ab67616d00001e02b6ca1c0b86401fffb34b15fa",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-21",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0vjK8bAO1NvOZhwgRmz2vr",
@@ -1413,7 +1998,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0233bbf29b95e8c3436e4f0f11ab67616d00001e028c16c4c88eca4899d91be1b3ab67616d00001e02a8fa4a75357e83f95cfaab3bab67616d00001e02cc6af6507ad880e3844f1b6e",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-20",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "298ja5d0ELPZHmqqqhzo8V",
@@ -1425,7 +2015,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0272b1ad3f87f5520ca249707cab67616d00001e0282114ac9f984c35724701c73ab67616d00001e028b4b7e55c1bc0f4de48435eeab67616d00001e02b37678d22d4b0b157354412c",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/songs-for-walking-in-the-snow-at",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 25 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 25 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4w3leLd1UZmYVw05lPcdkd",
@@ -1437,7 +2032,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02197fb3191dc8bd1c37d55831ab67616d00001e022c81905d4a216deda92d91aeab67616d00001e0241ab6cd978876bc77c139529ab67616d00001e027c705a56add607b1b6d910ea",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-19",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 42 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 42 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "7FpPG8MjwEA9NbknPASvJP",
@@ -1449,7 +2049,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e022eface417f9bd4b3436b1ee5ab67616d00001e0255e73f203a199dcad9c42d69ab67616d00001e0269ab7cefcac9dfde0373fa42ab67616d00001e02c78f65ac6e61773ea2470171",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-19",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0v0DORmens5TZ8Ps9fVHYG",
@@ -1461,7 +2066,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02001d5706fddc72561f6488afab67616d00001e02810f9a27cb630510630ca399ab67616d00001e02820e6b8b6fe77bd0e455eb15ab67616d00001e02edb915ed1be7dd54aaab404a",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/songs-i-listened-to-on-repeat-in",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 46 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 46 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0hi8Z5Z3gG6TbvNrz8Lrb3",
@@ -1473,7 +2083,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e020d4296381625fd67bdb1a582ab67616d00001e0254dde2aba8ba85af6146aecbab67616d00001e02ba6340ac3b1653b6ea0e5da5ab67616d00001e02c0ab387ed0b414e95c669123",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-18",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "4onK6gpBl9CLWHzRlMU9uA",
@@ -1485,7 +2100,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02350c66a0cdc9ac9aaf2334f0ab67616d00001e023cfca71bb96dacbb1c0fb2bfab67616d00001e02604946268e39c7d472acbd48ab67616d00001e02dac59262300d83cdf6dabdc5",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-17",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2o2DLsgA071XLQnDtu1uQm",
@@ -1497,7 +2117,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e023e680ce453d395d9e1a81212ab67616d00001e026bf950a2cb95f9c700e5f73eab67616d00001e0292e671aea35f9cbc081caae7ab67616d00001e02ead2047d2c6e8abce3800f88",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-16",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2fcTsKqiMwqbaqcMhTtHHM",
@@ -1509,7 +2134,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0255e7c78ec58c4670bc0180fbab67616d00001e0278d9f4c7e18f09c68e984b3fab67616d00001e02866872ba52cf201fc33995ccab67616d00001e02e902fbd2d05b652278bda435",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-15",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "3QDen1nhc5zFpczsNDV9TK",
@@ -1521,7 +2151,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0245c33f77bca2f91709f2697dab67616d00001e025443784df539cdaeb4fb3874ab67616d00001e02d9e2099f5018b2fdb2be86e6ab67616d00001e02dd1c9ce9a91496b6b53e5370",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/its-here-the-coziest-merriest-christmas",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 112 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 112 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6HIlXsL6qHOI1xob1Gn8XQ",
@@ -1533,7 +2168,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02196117d328b70412c84021eaab67616d00001e02e137e47f1bb435883421919fab67616d00001e02e2a0a166493a2bde5480a420ab67616d00001e02fb9dac3244b8486758058a81",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-12",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "7CfSYcFU963Zdmpkl8GTBP",
@@ -1545,7 +2185,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e021d9d01b540997f8d491959aeab67616d00001e022002c3ce32dee8c19958fcf4ab67616d00001e02644aec058f5a108fac6ec0fbab67616d00001e02908d489ac47134ce6ef0ec3e",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/dinner-party-series-thanksgiving",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 64 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 64 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "3gPMLdvho06YneWGJvMIJR",
@@ -1557,7 +2202,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0228536578b912b1c4b0012395ab67616d00001e025aa52c110f17551ab66c3d2bab67616d00001e02a4b2d357ddbf43de17fa270eab67616d00001e02bbab42c0306b29ba9a1336f2",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-11",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2nhGFn3CYNJ4lnF3YHl9B8",
@@ -1569,7 +2219,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0276425c8f70f9d0eecebb8aa9ab67616d00001e02867d19a88632dc43f26af5a8ab67616d00001e02d53de9b388d8f6a0ba83df9cab67616d00001e02fa1323bb50728c7489980672",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-10",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 9 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 9 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0QsPVdevX7Pw2LZvtYxejI",
@@ -1581,7 +2236,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02200d04910e6ecdc11d5ab97dab67616d00001e02a01ffcbb803e8d1fc4458f1bab67616d00001e02b254ca0983d65ede8e3d2f7aab67616d00001e02b50f83033bfdff470e094f42",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-9",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "2GzKL94h2V6IK2gBgiRe0P",
@@ -1593,7 +2253,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0223ac84a525286001770abc8eab67616d00001e02607548b16beff34ca95a1c55ab67616d00001e02ced053526943545f721b98a3ab67616d00001e02e5d64386cbc0c38520b223e8",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-8",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6iCSAQFiMYpBtZhKPjBgyT",
@@ -1605,7 +2270,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02235f7291387c9aee50239930ab67616d00001e02375f3b7b1e2a3e4fe4704596ab67616d00001e023f1cc9befe12b2b25acbc614ab67616d00001e026d1596d7d9125f083d565296",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/sad-girl-songs-1960s-and-1970s",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5Shwj4PNN0LNT77Hr3FrAd",
@@ -1617,7 +2287,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e022d69cb34f3c149731e0e8523ab67616d00001e028b90b371248a27daa7e3d774ab67616d00001e02add5b498a3196a680b659197ab67616d00001e02bcc101e799f5e6ed8407b887",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-7",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "1th1VwcvvXpCgQvaO7R1aJ",
@@ -1629,7 +2304,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0234aaa340c1f8c13eec10dbd5ab67616d00001e023ec7a537e47e2c46d154192eab67616d00001e02a3724493e953610be3141c9dab67616d00001e02cdfe9ca52fbe76c85e055aef",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/the-brain-refresher-playlist-that",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 51 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 51 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "1LrKmrzZkJtclQR4LreZWR",
@@ -1641,7 +2321,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e029731f16759767d460c32e6c8ab67616d00001e02a9e2d71c5d38c4c9418fb888ab67616d00001e02d73a8a3b26155797b0236871ab67616d00001e02e30b3043b6a097aa923416ea",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-5",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6X7AUw4nNGugGjxNfCgnTu",
@@ -1653,7 +2338,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0267255aea8b80250d153ccc00ab67616d00001e0273f5e95a077d35a5b292b538ab67616d00001e02c6458c69d33139ff88f2e70dab67616d00001e02cc359b92dbdad4d1563bcd28",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-4",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "1sHZY0pSbhMx4dCe7ePaAJ",
@@ -1665,7 +2355,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02383194bc24c471732eb3a973ab67616d00001e025fda4709ab606303d90937e8ab67616d00001e0264ada137e7e4fd2be33562faab67616d00001e02908b0f5d441b9275a035b96f",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-3",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "7wzVGIFH4M0txrOi81VHq4",
@@ -1677,7 +2372,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e022356c80166acfe1ef52e8d83ab67616d00001e023b1fda5d1b4f943e2e729aafab67616d00001e027489de56991922c1b3d71703ab67616d00001e02c02bbdf56c32fbd083d3ed1e",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/a-playlist-for-a-fall-morning-in",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 16 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "0Xu5eLFr8ZV5TS8xe6Oq8k",
@@ -1689,7 +2389,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e021d4469a768953875d571d8f0ab67616d00001e02704735cc8802a1005c537042ab67616d00001e02a7ea08ab3914c5fb2084a8acab67616d00001e02f3dcd9c800f6a4c110339ee2",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/15-songs-im-digging-right-now-2",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "08ut6h1kc3nlDxwvWx38x1",
@@ -1701,7 +2406,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0200e6778a26551e3ea45de840ab67616d00001e0257cc241e3fc4e95eea8c4b20ab67616d00001e0284a1d313a00f16b5a29ff46cab67616d00001e02be8a97f27f0c143d603f1aa8",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/archive-playlist-35-songs-for-the",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 43 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 43 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5CWhnKszZMoD4EMcrfd7FP",
@@ -1713,7 +2423,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0268a3c69afbca8014ed4a80cdab67616d00001e028e8c08ca2feb999bb84f05e6ab67616d00001e02b21ff22af82a1b4e22223d95ab67616d00001e02dc20397b139223620af148f6",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/archive-playlist-doing-it-sex-playlist",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 106 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 106 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "6nkwqUBvTJEDs5gMVZq7Ap",
@@ -1725,7 +2440,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e0234ef8f7d06cf2fc2146f420aab67616d00001e02be7a3a1e2d663eea2918e5a3ab67616d00001e02cb392fae41fb3cc343b17e0dab67616d00001e02e21cc1db05580b6f2d2a3b6e",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/archive-playlist-songs-for-short",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 241 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 241 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "3rj103gMqyb4V3pVU5Qa0q",
@@ -1737,7 +2457,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e020de348af6c3e533f24c99472ab67616d00001e024e0362c225863f6ae2432651ab67616d00001e029164bafe9aaa168d93f4816aab67616d00001e02de09e02aa7febf30b7c02d82",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/archive-playlist-songs-that-make",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 22 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 22 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "3P3kCVdi85pVaRyFq3VnME",
@@ -1749,7 +2474,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e025af83cffa46ae9115bd73eb0ab67616d00001e02734d59d61032b9ddd10d948fab67616d00001e02c0f55c3263cab0febb02b6b4ab67616d00001e02e053bde519f23267361ad464",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/dinner-party-series-part-1",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 26 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 26 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "57E9REsKS67HYTOSOSkkcP",
@@ -1761,7 +2491,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02493a25e6ea970342acc1b4adab67616d00001e026d5c90793ffa469ced01ca38ab67616d00001e0271ffdf81111a46d1b90737e4ab67616d00001e02897cd4eeff3174110aa6230b",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/music-for-productivity-inside-of",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 28 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 28 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "5gcAi31ysiMnKuPvjpG6ko",
@@ -1773,7 +2508,12 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02717e99d1a9b37e366f02c959ab67616d00001e0279a1f97b67b7d9ad5c3bcd36ab67616d00001e02c31365c174b1078b77baa55fab67616d00001e02d03df625b561661249574f57",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/music-for-productivity-inside-of",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 20 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 20 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   },
   {
     "id": "52DUopV6Hk0nFTTyEKlFUa",
@@ -1785,6 +2525,11 @@
     "status": "complete",
     "image": "https://mosaic.scdn.co/300/ab67616d00001e02280e6dedcd0c039bf526af69ab67616d00001e027ef6467d240105193b7a4377ab67616d00001e02bd7d4673627a7674f0103c1dab67616d00001e02c4a89ebfb35ee3ca59565383",
     "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/music-for-productivity-inside-of",
-    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order."
+    "note": "Exact public copy of the linked Spotify playlist, preserving 15 playable tracks in order.",
+    "provenance": {
+      "method": "substack_spotify_copy",
+      "fidelity": "exact"
+    },
+    "sourceLabel": "original_post"
   }
 ]

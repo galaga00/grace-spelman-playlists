@@ -16,6 +16,10 @@
       content="Complete public Spotify playlists, organized by newsletter date."
     />
     <link rel="canonical" href="https://galaga00.github.io/grace-spelman-playlists/" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231ed760'/%3E%3Cpath d='M18 22c11-3 22-2 31 3M16 32c10-3 21-1 29 3M18 42c8-2 17-1 24 3' fill='none' stroke='%2310110f' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E"
+    />
     <title>Grace Spelman Playlist Library</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
@@ -33,7 +37,7 @@
       </p>
       <div class="stats" aria-live="polite">
         <div><strong id="playlist-count">—</strong><span>public playlists</span></div>
-        <div><strong id="complete-count">—</strong><span>verified complete</span></div>
+        <div><strong id="complete-count">—</strong><span>historically exact</span></div>
         <div><strong id="track-count">—</strong><span>playable tracks</span></div>
         <div><strong id="unavailable-count">—</strong><span>retired source links</span></div>
       </div>
@@ -45,8 +49,21 @@
           <p class="kicker">The collection</p>
           <h2>Pick a playlist</h2>
         </div>
-        <p class="update-note">Grouped by newsletter date and updated automatically when a new playlist is ready.</p>
+        <p class="update-note">Grouped by publication date. Every card explains where its track list came from.</p>
       </div>
+
+      <aside class="provenance-guide" aria-labelledby="provenance-title">
+        <div>
+          <p class="kicker">Source guide</p>
+          <h3 id="provenance-title">How these playlists were preserved</h3>
+        </div>
+        <div class="provenance-key">
+          <p><strong>Linked playlist</strong><span>Copied from Spotify as linked by Grace.</span></p>
+          <p><strong>Dated archive</strong><span>Rebuilt from Grace’s historical song lists or screenshots.</span></p>
+          <p><strong>Rolling snapshot</strong><span>A dated copy of the weekly playlist before it changed.</span></p>
+          <p><strong>Reconstructed</strong><span>Built from albums or explicit tracks Grace shared.</span></p>
+        </div>
+      </aside>
 
       <div id="playlist-grid" class="playlist-sections" aria-live="polite">
         <p class="loading">Loading the playlists…</p>
@@ -59,7 +76,8 @@
     <footer>
       <p>
         A personal listening index. Playlist content is hosted by Spotify; newsletter links point
-        to the original publisher, and this page does not reproduce newsletter text.
+        to the original publisher, and source labels describe the preservation method without
+        reproducing newsletter text or paid track lists.
       </p>
     </footer>
   </body>

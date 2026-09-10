@@ -7,6 +7,53 @@ const unavailableCount = document.querySelector("#unavailable-count");
 
 const RETIRED_SOURCE_COUNT = 6;
 
+const PROVENANCE = {
+  substack_spotify_copy: {
+    label: "Linked playlist",
+    description: "Exact copy of the Spotify playlist linked from the original Substack post.",
+    fidelity: "exact",
+  },
+  subscriber_email_playlist: {
+    label: "Subscriber email",
+    description: "Exact copy of the Spotify playlist delivered in the subscriber email.",
+    fidelity: "exact",
+  },
+  email_rolling_snapshot: {
+    label: "Rolling snapshot",
+    description: "Dated snapshot of Grace’s rolling New Music Friday playlist when the email arrived.",
+    fidelity: "exact",
+  },
+  google_doc_text: {
+    label: "Dated archive",
+    description: "Rebuilt from Grace’s dated historical song list and verified on Spotify.",
+    fidelity: "exact",
+  },
+  google_doc_screenshots: {
+    label: "Archive screenshots",
+    description: "Transcribed from Grace’s dated Spotify screenshots and verified track by track.",
+    fidelity: "exact",
+  },
+  linked_album_reconstruction: {
+    label: "Reconstructed",
+    description: "Built from the albums and individual tracks Grace explicitly shared in the post.",
+    fidelity: "exact",
+  },
+  email_explicit_tracks: {
+    label: "Email track list",
+    description: "Built from an explicit artist-and-title list in the subscriber email.",
+    fidelity: "exact",
+  },
+  late_rolling_copy: {
+    label: "Late rolling copy",
+    description: "Copied from the rolling playlist after publication; its historical date match still needs review.",
+    fidelity: "historical-date-unverified",
+  },
+};
+
+function provenanceFor(playlist) {
+  return PROVENANCE[playlist.provenance?.method] || PROVENANCE.substack_spotify_copy;
+}
+
 const dateFormatter = new Intl.DateTimeFormat("en-US", {
   month: "short",
   day: "numeric",
@@ -47,9 +94,14 @@ function createCard(playlist) {
   const meta = document.createElement("div");
   meta.className = "playlist-meta";
 
+  const provenance = provenanceFor(playlist);
   const status = document.createElement("span");
-  status.className = "status-badge";
-  status.textContent = "Complete";
+  status.className = `status-badge ${provenance.fidelity === "exact" ? "is-exact" : "needs-review"}`;
+  status.textContent = provenance.fidelity === "exact" ? "Exact" : "Review";
+
+  const source = document.createElement("span");
+  source.className = "source-badge";
+  source.textContent = provenance.label;
 
   const count = document.createElement("span");
   count.textContent = `${playlist.trackCount.toLocaleString()} tracks`;
@@ -57,7 +109,7 @@ function createCard(playlist) {
   const date = document.createElement("time");
   date.dateTime = playlist.publishedAt;
   date.textContent = dateFormatter.format(new Date(`${playlist.publishedAt}T12:00:00`));
-  meta.append(status, count, date);
+  meta.append(status, source, count, date);
 
   const title = document.createElement("h5");
   title.className = "playlist-title";
@@ -67,6 +119,10 @@ function createCard(playlist) {
   note.className = "playlist-note";
   note.textContent = playlist.note || "A complete public playlist ready to open on Spotify.";
 
+  const provenanceSummary = document.createElement("p");
+  provenanceSummary.className = "playlist-provenance";
+  provenanceSummary.textContent = provenance.description;
+
   const actions = document.createElement("div");
   actions.className = "card-actions";
 
@@ -75,7 +131,7 @@ function createCard(playlist) {
   spotifyLink.href = playlist.url;
   spotifyLink.target = "_blank";
   spotifyLink.rel = "noopener noreferrer";
-  spotifyLink.textContent = "Open in Spotify";
+  spotifyLink.textContent = "Spotify";
   spotifyLink.setAttribute("aria-label", `Open ${playlist.title} in Spotify`);
   actions.append(spotifyLink);
 
@@ -85,12 +141,18 @@ function createCard(playlist) {
     sourceLink.href = playlist.sourceUrl;
     sourceLink.target = "_blank";
     sourceLink.rel = "noopener noreferrer";
-    sourceLink.textContent = "Newsletter";
-    sourceLink.setAttribute("aria-label", `Open the newsletter for ${playlist.title}`);
+    const isHubLink = playlist.sourceLabel === "new_music_friday_hub";
+    sourceLink.textContent = isHubLink ? "NMF hub" : "Original post";
+    sourceLink.setAttribute(
+      "aria-label",
+      isHubLink
+        ? `Open Grace Spelman’s New Music Friday hub for ${playlist.title}`
+        : `Open the original Grace Spelman post for ${playlist.title}`,
+    );
     actions.append(sourceLink);
   }
 
-  body.append(meta, title, note, actions);
+  body.append(meta, title, note, provenanceSummary, actions);
   article.append(image, body);
   return article;
 }
@@ -185,7 +247,9 @@ async function loadPlaylists() {
     );
 
     playlistCount.textContent = complete.length.toLocaleString();
-    completeCount.textContent = complete.length.toLocaleString();
+    completeCount.textContent = complete
+      .filter((playlist) => provenanceFor(playlist).fidelity === "exact")
+      .length.toLocaleString();
     trackCount.textContent = complete
       .reduce((sum, playlist) => sum + playlist.trackCount, 0)
       .toLocaleString();

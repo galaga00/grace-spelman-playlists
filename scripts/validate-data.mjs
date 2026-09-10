@@ -2,6 +2,16 @@ import { readFile } from "node:fs/promises";
 
 const playlists = JSON.parse(await readFile(new URL("../playlists.json", import.meta.url), "utf8"));
 const seen = new Set();
+const provenanceMethods = new Set([
+  "substack_spotify_copy",
+  "subscriber_email_playlist",
+  "email_rolling_snapshot",
+  "google_doc_text",
+  "google_doc_screenshots",
+  "linked_album_reconstruction",
+  "email_explicit_tracks",
+  "late_rolling_copy",
+]);
 
 if (!Array.isArray(playlists) || playlists.length === 0) {
   throw new Error("playlists.json must contain at least one playlist");
@@ -30,9 +40,25 @@ for (const playlist of playlists) {
   if (!/^https:\/\/gracespelmanmusicproject\.substack\.com\/p\//.test(playlist.sourceUrl || "")) {
     throw new Error(`Invalid newsletter URL: ${playlist.id}`);
   }
+  if (!["original_post", "new_music_friday_hub"].includes(playlist.sourceLabel)) {
+    throw new Error(`Invalid or missing source label: ${playlist.id}`);
+  }
+  if (!provenanceMethods.has(playlist.provenance?.method)) {
+    throw new Error(`Invalid or missing provenance method: ${playlist.id}`);
+  }
+  const expectedFidelity =
+    playlist.provenance.method === "late_rolling_copy"
+      ? "historical-date-unverified"
+      : "exact";
+  if (playlist.provenance.fidelity !== expectedFidelity) {
+    throw new Error(`Invalid provenance fidelity: ${playlist.id}`);
+  }
 }
 
 const complete = playlists.filter((playlist) => playlist.status === "complete");
+const historicallyExact = complete.filter(
+  (playlist) => playlist.provenance.fidelity === "exact",
+);
 console.log(
-  `Validated ${playlists.length} public playlists: ${complete.length} complete with ${complete.reduce((sum, playlist) => sum + playlist.trackCount, 0)} verified tracks.`,
+  `Validated ${playlists.length} public playlists: ${complete.length} complete, ${historicallyExact.length} historically exact, with ${complete.reduce((sum, playlist) => sum + playlist.trackCount, 0)} playable tracks.`,
 );

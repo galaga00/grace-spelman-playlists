@@ -86,6 +86,24 @@ const displayTitle = String(
 const publishedAt = String(payload.published_at || payload.publishedAt || new Date().toISOString().slice(0, 10));
 const status = String(payload.status || "complete").trim().toLowerCase();
 const sourceUrl = String(payload.source_url || "").trim();
+const sourceLabel = String(payload.source_label || "original_post").trim();
+const playlists = JSON.parse(await readFile(dataPath, "utf8"));
+const existing = playlists.find((playlist) => playlist.id === id);
+const provenanceMethods = new Set([
+  "substack_spotify_copy",
+  "subscriber_email_playlist",
+  "email_rolling_snapshot",
+  "google_doc_text",
+  "google_doc_screenshots",
+  "linked_album_reconstruction",
+  "email_explicit_tracks",
+  "late_rolling_copy",
+]);
+const provenanceMethod = String(
+  payload.provenance_method ||
+    existing?.provenance?.method ||
+    "subscriber_email_playlist",
+).trim();
 
 if (!/^\d{4}-\d{2}-\d{2}$/.test(publishedAt)) {
   throw new Error("published_at must use YYYY-MM-DD");
@@ -99,8 +117,14 @@ if (!/^https:\/\/gracespelmanmusicproject\.substack\.com\/p\//.test(sourceUrl)) 
   throw new Error("source_url must be a Grace Spelman newsletter URL");
 }
 
-const playlists = JSON.parse(await readFile(dataPath, "utf8"));
-const existing = playlists.find((playlist) => playlist.id === id);
+if (!["original_post", "new_music_friday_hub"].includes(sourceLabel)) {
+  throw new Error("source_label is not supported");
+}
+
+if (!provenanceMethods.has(provenanceMethod)) {
+  throw new Error("provenance_method is not supported");
+}
+
 const entry = {
   id,
   title: displayTitle,
@@ -111,6 +135,14 @@ const entry = {
   status,
   image: spotifyMetadata.thumbnail_url || existing?.image || "",
   sourceUrl,
+  sourceLabel,
+  provenance: {
+    method: provenanceMethod,
+    fidelity:
+      provenanceMethod === "late_rolling_copy"
+        ? "historical-date-unverified"
+        : "exact",
+  },
   note: String(
     payload.note ||
       existing?.note ||
