@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
+import { resolveAppleMusicUrl, ROLLING_APPLE_MUSIC_URL, isRollingAppleMusicUrl } from "./apple-music.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataPath = path.join(root, "playlists.json");
@@ -89,6 +90,16 @@ const sourceUrl = String(payload.source_url || "").trim();
 const sourceLabel = String(payload.source_label || "original_post").trim();
 const playlists = JSON.parse(await readFile(dataPath, "utf8"));
 const existing = playlists.find((playlist) => playlist.id === id);
+let appleMusicUrl = existing?.appleMusicUrl;
+if (payload.apple_music_url) {
+  try {
+    const resolved = await resolveAppleMusicUrl(payload.apple_music_url);
+    if (resolved) appleMusicUrl = resolved;
+    else console.warn("Apple Music link was not a playlist; publishing the Spotify archive without a new Apple link.");
+  } catch {
+    console.warn("Apple Music link could not be resolved; publishing the Spotify archive without a new Apple link.");
+  }
+}
 const provenanceMethods = new Set([
   "substack_spotify_copy",
   "subscriber_email_playlist",
@@ -104,6 +115,10 @@ const provenanceMethod = String(
     existing?.provenance?.method ||
     "subscriber_email_playlist",
 ).trim();
+
+if (!appleMusicUrl && provenanceMethod === "email_rolling_snapshot" && sourcePlaylistId === "0W2Jrqv2ZCGhcGWvNpWCe2") {
+  appleMusicUrl = ROLLING_APPLE_MUSIC_URL;
+}
 
 if (!/^\d{4}-\d{2}-\d{2}$/.test(publishedAt)) {
   throw new Error("published_at must use YYYY-MM-DD");
@@ -139,6 +154,8 @@ const entry = {
   image: spotifyMetadata.thumbnail_url || existing?.image || "",
   sourceUrl,
   sourceLabel,
+  ...(appleMusicUrl ? { appleMusicUrl } : {}),
+  ...(isRollingAppleMusicUrl(appleMusicUrl) ? { appleMusicIsRolling: true } : {}),
   provenance: {
     method: provenanceMethod,
     fidelity: String(

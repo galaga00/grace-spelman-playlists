@@ -7,6 +7,39 @@ const trackCount = document.querySelector("#track-count");
 const unavailableCount = document.querySelector("#unavailable-count");
 
 const RETIRED_SOURCE_COUNT = 6;
+const transferDialog = document.querySelector("#transfer-dialog");
+const transferUrl = document.querySelector("#transfer-url");
+const copyStatus = document.querySelector("#copy-status");
+let transferOpener;
+let transferVersion = 0;
+
+function openTransfer(playlist, opener) {
+  transferVersion += 1;
+  transferOpener = opener;
+  document.querySelector("#transfer-playlist-title").textContent = playlist.title;
+  document.querySelector("#transfer-count").textContent = `${playlist.trackCount.toLocaleString()} tracks in the Spotify archive${playlist.status === "review" ? " (verified partial)" : ""}.`;
+  transferUrl.value = playlist.url;
+  copyStatus.textContent = "";
+  transferDialog.showModal();
+}
+
+document.querySelector("#close-transfer").addEventListener("click", () => transferDialog.close());
+transferDialog.addEventListener("close", () => {
+  transferVersion += 1;
+  transferOpener?.focus();
+});
+document.querySelector("#copy-transfer-url").addEventListener("click", async () => {
+  const version = transferVersion;
+  try {
+    await navigator.clipboard.writeText(transferUrl.value);
+    if (version === transferVersion) copyStatus.textContent = "Playlist link copied.";
+  } catch {
+    if (version !== transferVersion) return;
+    transferUrl.focus();
+    transferUrl.select();
+    copyStatus.textContent = "Select and copy the playlist link above.";
+  }
+});
 
 const PROVENANCE = {
   substack_spotify_copy: {
@@ -141,6 +174,28 @@ function createCard(playlist) {
   spotifyLink.textContent = "Spotify";
   spotifyLink.setAttribute("aria-label", `Open ${playlist.title} in Spotify`);
   actions.append(spotifyLink);
+
+  if (playlist.appleMusicUrl) {
+    const appleLink = document.createElement("a");
+    appleLink.className = "apple-link";
+    appleLink.href = playlist.appleMusicUrl;
+    appleLink.target = "_blank";
+    appleLink.rel = "noopener noreferrer";
+    appleLink.textContent = playlist.appleMusicIsRolling ? "Apple Music · current" : "Apple Music";
+    appleLink.setAttribute("aria-label", playlist.appleMusicIsRolling
+      ? "Open Grace’s current New Music Friday playlist in Apple Music; this is not the archived week"
+      : `Open Grace’s original Apple Music playlist for ${playlist.title}; its tracks may change`);
+    actions.append(appleLink);
+  }
+
+  const tidalButton = document.createElement("button");
+  tidalButton.type = "button";
+  tidalButton.className = "tidal-transfer";
+  tidalButton.textContent = "Transfer to TIDAL";
+  tidalButton.setAttribute("aria-haspopup", "dialog");
+  tidalButton.setAttribute("aria-label", `Transfer ${playlist.title} to your TIDAL account`);
+  tidalButton.addEventListener("click", () => openTransfer(playlist, tidalButton));
+  actions.append(tidalButton);
 
   if (playlist.sourceUrl) {
     const sourceLink = document.createElement("a");

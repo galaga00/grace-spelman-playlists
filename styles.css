@@ -395,7 +395,9 @@ h2 {
 }
 
 .spotify-link,
-.source-link {
+.source-link,
+.apple-link,
+.tidal-transfer {
   display: inline-flex;
   align-items: center;
   align-self: flex-start;
@@ -403,7 +405,29 @@ h2 {
   font-size: 0.82rem;
   font-weight: 780;
   text-decoration: none;
+  min-height: 44px;
 }
+
+.apple-link { color: #ff9ead; }
+.tidal-transfer { padding: 0; border: 0; background: none; color: var(--ink); font-family: inherit; cursor: pointer; text-align: left; }
+.service-guide { max-width: 880px; margin: -10px 0 32px; color: var(--muted); font-size: 0.88rem; line-height: 1.6; }
+:focus-visible { outline: 2px solid var(--acid); outline-offset: 4px; }
+#transfer-dialog { width: min(560px, calc(100% - 28px)); max-height: calc(100dvh - 32px); overflow-y: auto; padding: 26px; color: var(--ink); background: #1f201d; border: 1px solid var(--line); border-radius: 20px; }
+#transfer-dialog::backdrop { background: rgba(0, 0, 0, 0.78); }
+.transfer-heading { display: flex; align-items: start; justify-content: space-between; gap: 16px; }
+.transfer-heading h2 { font-size: 1.8rem; }
+#close-transfer { flex: 0 0 44px; height: 44px; border: 1px solid var(--line); border-radius: 50%; background: none; color: var(--ink); font-size: 1.8rem; cursor: pointer; }
+.transfer-playlist-title { font-weight: 750; overflow-wrap: anywhere; }
+#transfer-dialog p, .transfer-steps { line-height: 1.5; }
+#transfer-count, .transfer-disclosure { color: var(--muted); font-size: 0.84rem; }
+.transfer-steps { padding-left: 22px; }
+.transfer-steps li { margin-bottom: 10px; }
+#transfer-dialog label { display: block; margin: 20px 0 8px; font-size: 0.84rem; }
+#transfer-url { width: 100%; min-width: 0; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: #10110f; color: var(--ink); font-size: 16px; }
+.transfer-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
+.transfer-actions button, .transfer-continue { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 9px; color: var(--ink); font: inherit; font-size: 0.9rem; font-weight: 700; text-decoration: none; cursor: pointer; background: transparent; }
+.transfer-actions button { background: var(--acid); color: var(--paper); }
+#copy-status { min-height: 1.5em; color: var(--acid); font-size: 0.85rem; }
 
 .spotify-link {
   color: var(--spotify);
@@ -414,7 +438,8 @@ h2 {
 }
 
 .spotify-link::after,
-.source-link::after {
+.source-link::after,
+.apple-link::after {
   content: "↗";
   transition: transform 160ms ease;
 }

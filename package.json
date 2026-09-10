@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "test": "node --test scripts/service-links.test.mjs",
     "validate": "node scripts/validate-data.mjs",
     "serve": "python3 -m http.server 4173"
   }

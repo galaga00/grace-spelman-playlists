@@ -14,7 +14,8 @@
       "method": "subscriber_email_playlist",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/walking-around-a-new-city/pl.u-55D6pE6c8lo79X"
   },
   {
     "id": "0Gso5ZnuABu0Qw6Bk4ZNPh",
@@ -31,7 +32,9 @@
       "method": "email_rolling_snapshot",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "7jeBiKkNXm3r3439kndux1",
@@ -48,7 +51,8 @@
       "method": "subscriber_email_playlist",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/watching-the-rain-from-the-porch/pl.u-55D6p43U8lo79X"
   },
   {
     "id": "2Bs6jY7lDhMxyMJPgyBcy4",
@@ -65,7 +69,8 @@
       "method": "subscriber_email_playlist",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/cold-beer-by-a-body-of-water/pl.u-06oxL76tWlPDd7"
   },
   {
     "id": "3kNqHSYHRkjMBdtMJoKbcs",
@@ -82,7 +87,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/hip-block-party-in-summer-with-your-neighbors/pl.u-yZyV4XZuYerpgZ"
   },
   {
     "id": "24vstHwOIDRqNf6jW4q7k8",
@@ -99,7 +105,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/songs-ive-been-digging/pl.u-MDAWbe9sWEKjy3"
   },
   {
     "id": "5BoGL6deSPHFHXpj88GDRw",
@@ -117,7 +124,9 @@
       "method": "google_doc_screenshots",
       "fidelity": "verified-available"
     },
-    "note": "33 of 34 screenshot entries were verified; one ambiguous album-heading entry was omitted instead of guessing."
+    "note": "33 of 34 screenshot entries were verified; one ambiguous album-heading entry was omitted instead of guessing.",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "31sHjdrWReX6LcJRWqwPMp",
@@ -134,7 +143,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/hey-im-drivin-here/pl.u-06oxLWaIWlPDd7"
   },
   {
     "id": "5m1MKWPehUkqRCKMRU7Ood",
@@ -151,7 +161,9 @@
       "method": "google_doc_screenshots",
       "fidelity": "exact"
     },
-    "note": "Exact 33-track archive transcribed from dated Spotify screenshots and verified track by track."
+    "note": "Exact 33-track archive transcribed from dated Spotify screenshots and verified track by track.",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "5HUNV3sandkpFxWhmNnIk0",
@@ -168,7 +180,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/early-2000s-songs-i-was-obsessed-with-in-middle-school/pl.u-EdAV04VIapK3bq"
   },
   {
     "id": "1kkaReU1V7P2pQMaypcg7M",
@@ -185,7 +198,9 @@
       "method": "google_doc_screenshots",
       "fidelity": "exact"
     },
-    "note": "39 distinct tracks transcribed from dated Spotify screenshots; one repeated overlap line was collapsed."
+    "note": "39 distinct tracks transcribed from dated Spotify screenshots; one repeated overlap line was collapsed.",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "2O04wpYS9H18ZB2e1CmRwy",
@@ -202,7 +217,9 @@
       "method": "google_doc_text",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "2K8yHhqAlPuo29Pntnw9Hq",
@@ -237,7 +254,9 @@
       "method": "google_doc_text",
       "fidelity": "verified-available"
     },
-    "note": "44 of 45 source entries were verified; one uncertain title was omitted instead of being replaced with a guess."
+    "note": "44 of 45 source entries were verified; one uncertain title was omitted instead of being replaced with a guess.",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "0YGfVlXeYlfmk8cPRcFqr3",
@@ -271,7 +290,9 @@
       "method": "google_doc_text",
       "fidelity": "exact"
     },
-    "note": "Exact 43-track dated text archive; every Spotify match was verified against the source list."
+    "note": "Exact 43-track dated text archive; every Spotify match was verified against the source list.",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "1Y3XWtN6GAKNkz59wZ9jUE",
@@ -305,7 +326,9 @@
       "method": "google_doc_text",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "6unyODd8zdk5oZkEqq2aUd",
@@ -356,7 +379,9 @@
       "method": "google_doc_text",
       "fidelity": "exact"
     },
-    "note": "Exact 36-track dated text archive; every Spotify match was verified against the source list."
+    "note": "Exact 36-track dated text archive; every Spotify match was verified against the source list.",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "6sPu6JeTgSZK5Ed4lGbeD8",
@@ -391,7 +416,9 @@
       "method": "google_doc_text",
       "fidelity": "verified-available"
     },
-    "note": "33 of 40 source entries were verified; uncertain matches were omitted instead of adding unrelated songs."
+    "note": "33 of 40 source entries were verified; uncertain matches were omitted instead of adding unrelated songs.",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "4jVC1VlAmOy37yXgtDeFVO",
@@ -408,7 +435,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/snaps-n-claps/pl.u-pMylGaYu4XL685"
   },
   {
     "id": "2tpWjwVoLr3EGGd5bzbAG1",
@@ -426,7 +454,9 @@
       "method": "google_doc_text",
       "fidelity": "verified-available"
     },
-    "note": "45 distinct tracks were verified; six uncertain entries were omitted and one duplicate source line was collapsed."
+    "note": "45 distinct tracks were verified; six uncertain entries were omitted and one duplicate source line was collapsed.",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "69jQJ0kHJHjbG1a8BBKeN0",
@@ -461,7 +491,9 @@
       "method": "google_doc_text",
       "fidelity": "verified-available"
     },
-    "note": "43 of 56 source entries were verified; uncertain matches were omitted instead of adding unrelated songs."
+    "note": "43 of 56 source entries were verified; uncertain matches were omitted instead of adding unrelated songs.",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "33THOgSNOkN8AlqcV0vZq6",
@@ -496,7 +528,9 @@
       "method": "google_doc_text",
       "fidelity": "verified-available"
     },
-    "note": "44 of 45 source tracks were verified; one unavailable title was omitted instead of being replaced with a guess."
+    "note": "44 of 45 source tracks were verified; one unavailable title was omitted instead of being replaced with a guess.",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "6Va7IFWkMcolplpDzo4lz5",
@@ -513,7 +547,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/my-favorite-drumfills/pl.u-pMylGxaf4XL685"
   },
   {
     "id": "5o6giHU43QbXJSvJjAaYcN",
@@ -530,7 +565,9 @@
       "method": "google_doc_text",
       "fidelity": "exact"
     },
-    "note": "Exact 50-track dated text archive, replacing the old late snapshot of Grace’s rolling playlist."
+    "note": "Exact 50-track dated text archive, replacing the old late snapshot of Grace’s rolling playlist.",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "2VI9XzaxCjF7iBLfsuRhJQ",
@@ -564,7 +601,9 @@
       "method": "google_doc_text",
       "fidelity": "exact"
     },
-    "note": "Exact 50-track dated text archive; every Spotify match was verified against the source list."
+    "note": "Exact 50-track dated text archive; every Spotify match was verified against the source list.",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "0pkIIPSIU7YLBDfKt9W2Zq",
@@ -598,7 +637,9 @@
       "method": "google_doc_text",
       "fidelity": "exact"
     },
-    "note": "Exact 35-track dated text archive; every Spotify match was verified against the source list."
+    "note": "Exact 35-track dated text archive; every Spotify match was verified against the source list.",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true
   },
   {
     "id": "4swcApGCC0iErJMS3btU79",
@@ -649,7 +690,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/67-songs-i-need-you-to-hear-this-week/pl.u-XkD011MTD6KjVg"
   },
   {
     "id": "4LN9Npe18qHrYbLpfvP1JR",
@@ -666,7 +708,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/72-songs-i-need-you-to-hear-this-week/pl.u-XkD01DkTD6KjVg"
   },
   {
     "id": "3mo4SXS4LHXWfolW4qsJnF",
@@ -683,7 +726,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/71-songs-i-need-you-to-hear-this-week/pl.u-4Jom88bCaoYrBX"
   },
   {
     "id": "2AVwIYZXl9OTzvDOoGaerD",
@@ -717,7 +761,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/70-songs-i-need-you-to-hear-this-week/pl.u-qxyl99XT2e54zd"
   },
   {
     "id": "5agZl5PZkmbKYJmcjxMNYd",
@@ -734,7 +779,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/69-songs-i-need-you-to-hear-this-week/pl.u-zPyLWWYtZKgjz8"
   },
   {
     "id": "18NN9ef2rrI4nIn6D2NDfS",
@@ -768,7 +814,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/68-songs-i-need-you-to-hear-this-week/pl.u-yZyVqqVuYerpgZ"
   },
   {
     "id": "32NAHhMlHZpVkQ4iTYt4fA",
@@ -802,7 +849,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/66-songs-i-need-you-to-hear-this-week/pl.u-yZyVqWLFYerpgZ"
   },
   {
     "id": "3fZ8OagsjgGygAWgRx0Khh",
@@ -836,7 +884,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/65-songs-i-need-you-to-hear-this-week/pl.u-XkD014BSD6KjVg"
   },
   {
     "id": "6plTd4WNfhrLXP9wm6nz80",
@@ -853,7 +902,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/vocalist-gives-directions-to-the-band/pl.u-pMylEbmT4XL685"
   },
   {
     "id": "07vrutmTfSgAcCBOomkM1U",
@@ -870,7 +920,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/64-songs-i-need-you-to-hear-this-week/pl.u-06oxMDbuWlPDd7"
   },
   {
     "id": "5fUMesUo68Y0qM92yAX6Az",
@@ -887,7 +938,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/63-songs-i-need-you-to-hear-this-week/pl.u-MDAWXvNFWEKjy3"
   },
   {
     "id": "6mkMCuA31mIcEpVcRgJANx",
@@ -921,7 +973,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/62-songs-i-need-you-to-hear-this-week/pl.u-EdAVxzYIapK3bq"
   },
   {
     "id": "0woE1y5IHpFQQIdDLL36k6",
@@ -938,7 +991,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/61-songs-i-need-you-to-hear-this-week/pl.u-yZyVqkAFYerpgZ"
   },
   {
     "id": "5LlaNmm6lZZtqMvvmKenKv",
@@ -972,7 +1026,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/60-songs-i-need-you-to-hear-this-week/pl.u-XkD01eESD6KjVg"
   },
   {
     "id": "4KQ1AsorG2rmCq9C0LTD89",
@@ -989,7 +1044,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/59-songs-i-need-you-to-hear-this-week/pl.u-06oxMV3uWlPDd7"
   },
   {
     "id": "6jEZ4G43Yz3xwYqsh8MVtX",
@@ -1023,7 +1079,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/58-songs-i-need-you-to-hear-this-week/pl.u-MDAWX5guWEKjy3"
   },
   {
     "id": "2p7kjbVhJGBTPKtIm4w1lf",
@@ -1057,7 +1114,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/57-songs-i-need-you-to-hear-this-week/pl.u-EdAVxDbtapK3bq"
   },
   {
     "id": "4ZWi0hFJUCo5K6uJY4CFT7",
@@ -1091,7 +1149,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/56-songs-i-need-you-to-hear-this-week/pl.u-MDAWXDjsWEKjy3"
   },
   {
     "id": "5jgCdOLFJm99xjoJGiMOT7",
@@ -1142,7 +1201,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/55-songs-i-need-you-to-hear-this-week/pl.u-EdAVxddIapK3bq"
   },
   {
     "id": "4Yq3hvotlwMDMfVvur0ifA",
@@ -1159,7 +1219,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/songs-for-new-york/pl.u-zPyLWy6CZKgjz8"
   },
   {
     "id": "2rPCPqC1rieUCWPXIOf9DE",
@@ -1176,7 +1237,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/54-songs-i-need-you-to-hear-this-week/pl.u-r2yBZjEuP3GNge"
   },
   {
     "id": "2jNPhKDNlYtk6QvqCf6LkR",
@@ -1193,7 +1255,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/beatles-covers-i-actually-like/pl.u-zPyLY8LTZKgjz8"
   },
   {
     "id": "2aqi1kNojeQSM0mgkl4mEW",
@@ -1244,7 +1307,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/f5-52/pl.u-4JomGlDsaoYrBX"
   },
   {
     "id": "4zfuJ51C4ICdQYC3fplhll",
@@ -1261,7 +1325,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/graces-film-faves/pl.u-qxylDXJT2e54zd"
   },
   {
     "id": "16hSDUpgj28FzzgjcGPdtq",
@@ -1278,7 +1343,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/f5-51/pl.u-zPyLYXXCZKgjz8"
   },
   {
     "id": "63wt9ZCY742vgNInqHomtC",
@@ -1329,7 +1395,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/running2rock/pl.u-yZyVlDrFYerpgZ"
   },
   {
     "id": "3RG8mbyoNcBvtdvdunPN47",
@@ -1431,7 +1498,8 @@
       "method": "substack_spotify_copy",
       "fidelity": "exact"
     },
-    "sourceLabel": "original_post"
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/5-songs-im-digging-right-now-45/pl.u-XkD0jaJtD6KjVg"
   },
   {
     "id": "5czfOEoXZTXPKQxic6UPWT",

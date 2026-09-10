@@ -10,7 +10,16 @@ Read `README.md` first.
 - Future playlist records are event-driven through GitHub `repository_dispatch`; do not add a polling job.
 - Every playlist record must have `status: "complete"` or `"review"`, a positive track count, a supported `provenance.method`, a compatible fidelity (`exact` or `verified-available`), and a `spotifyName` beginning with the Grace Spelman identifier.
 - The directory intentionally excludes obsolete partial/test playlists. Current inventory: 162 playlists and 4,971 playable tracks; 156 have historically exact provenance, six are visibly marked partial with verified/source counts, and six retired source links are shown only as a summary count.
-- Preserve year/month grouping, source-method labels, and both card links: the owned Spotify playlist and the public Substack post. Never reproduce newsletter body text, paid track lists, or the private historical document URL.
+- Preserve year/month grouping, source-method labels, owned Spotify and original-post links, optional Apple links, and every card's TIDAL transfer button. Never reproduce newsletter body text, paid track lists, or the private historical document URL.
+
+## Service links — 2026-09-10
+
+- All 162 cards have a visitor-initiated TIDAL transfer dialog; future cards inherit it automatically. The visitor connects their own TIDAL account in TuneMyMusic. Austin explicitly prefers this and does not want subscriptions.
+- Apple backfill currently verifies 52 cards, including 16 current rolling NMF links. Another 110 Apple links remain unverified after subscribed-browser access stalled. Do not describe the Apple backfill as complete. Private report: `data/apple-link-backfill-report.json` in the automation repo.
+- `appleMusicUrl` is optional and canonical. `appleMusicIsRolling: true` marks the known current NMF Apple URL. Never represent that link as a historical snapshot.
+- Make module 35 extracts the last Apple Music link with the newsletter URL; modules 31/32 carry it in their existing dispatch. Subscriber query strings are removed before dispatch. The GitHub resolver follows only bounded, approved redirects and rejects album/song URLs.
+- No new schedule, module, AI call, Make credit, paid service, or streaming account was added. Existing nightly behavior remains.
+- `npm test` exercises ingestion and URL safety. Local browser smoke covered four viewport sizes, clipboard success/denial, and focus restoration. No TIDAL account authorization or real transfer was tested.
 
 ## Production
 

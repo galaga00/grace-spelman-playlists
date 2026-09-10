@@ -8,12 +8,12 @@
     <meta name="robots" content="index, follow" />
     <meta
       name="description"
-      content="A chronological public directory of Spotify playlists preserved from the Grace Spelman Music Project, with source and completeness labels."
+      content="Grace Spelman playlists preserved on Spotify, with original Apple Music links and transfers to your own TIDAL account."
     />
     <meta property="og:title" content="Grace Spelman Playlist Library" />
     <meta
       property="og:description"
-      content="Public Spotify playlists organized by publication date, with clear source and completeness labels."
+      content="Explore the Spotify archive, open Grace’s original Apple Music playlists, or transfer a playlist to your own TIDAL account."
     />
     <link rel="canonical" href="https://galaga00.github.io/grace-spelman-playlists/" />
     <link
@@ -69,6 +69,8 @@
         </div>
       </aside>
 
+      <p class="service-guide">Spotify opens the preserved archive. Apple Music opens Grace’s original playlist, where available; its tracks may change. “Apple Music · current” opens her latest New Music Friday selection. Transfer to TIDAL helps you copy the Spotify archive into your own account with TuneMyMusic. Archive counts and Exact / Partial labels describe Spotify.</p>
+
       <div id="playlist-grid" class="playlist-sections" aria-live="polite">
         <p class="loading">Loading the playlists…</p>
       </div>
@@ -77,9 +79,32 @@
       </p>
     </main>
 
+    <dialog id="transfer-dialog" aria-labelledby="transfer-heading" aria-describedby="transfer-description">
+      <div class="transfer-heading">
+        <h2 id="transfer-heading">Take it to TIDAL</h2>
+        <button id="close-transfer" type="button" aria-label="Close transfer instructions">×</button>
+      </div>
+      <p id="transfer-playlist-title" class="transfer-playlist-title"></p>
+      <p id="transfer-count"></p>
+      <p id="transfer-description">Use TuneMyMusic to copy this playlist into your own TIDAL account.</p>
+      <ol class="transfer-steps">
+        <li>Copy the Spotify playlist link below.</li>
+        <li>Open TuneMyMusic, choose Spotify, then load the playlist from its URL.</li>
+        <li>Choose TIDAL, connect your account, and start the transfer.</li>
+      </ol>
+      <label for="transfer-url">Spotify playlist link</label>
+      <input id="transfer-url" type="url" readonly />
+      <div class="transfer-actions">
+        <button id="copy-transfer-url" type="button" autofocus>Copy playlist link</button>
+        <a class="transfer-continue" href="https://www.tunemymusic.com/transfer/spotify-to-tidal" target="_blank" rel="noopener noreferrer">Open TuneMyMusic ↗</a>
+      </div>
+      <p id="copy-status" role="status" aria-live="polite"></p>
+      <p class="transfer-disclosure">TuneMyMusic handles your connection and transfer. Its free allowance and pricing apply. Track matches and availability may differ; review the transfer report for missing songs.</p>
+    </dialog>
+
     <footer>
       <p>
-        A personal listening index. Playlist content is hosted by Spotify; newsletter links point
+        A personal listening index. Music is hosted by the linked streaming services. Apple Music links belong to Grace; newsletter links point
         to the original publisher, and source labels describe the preservation method without
         reproducing newsletter text or paid track lists.
       </p>

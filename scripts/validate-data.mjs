@@ -1,4 +1,5 @@
 import { readFile } from "node:fs/promises";
+import { normalizeAppleMusicUrl, isRollingAppleMusicUrl } from "./apple-music.mjs";
 
 const playlists = JSON.parse(await readFile(new URL("../playlists.json", import.meta.url), "utf8"));
 const seen = new Set();
@@ -21,6 +22,12 @@ for (const playlist of playlists) {
   if (!/^[A-Za-z0-9]+$/.test(playlist.id)) throw new Error(`Invalid playlist ID: ${playlist.id}`);
   if (seen.has(playlist.id)) throw new Error(`Duplicate playlist ID: ${playlist.id}`);
   seen.add(playlist.id);
+  if (playlist.appleMusicUrl !== undefined && normalizeAppleMusicUrl(playlist.appleMusicUrl) !== playlist.appleMusicUrl) {
+    throw new Error(`Invalid Apple Music playlist URL: ${playlist.id}`);
+  }
+  if (Boolean(playlist.appleMusicIsRolling) !== isRollingAppleMusicUrl(playlist.appleMusicUrl)) {
+    throw new Error(`Rolling Apple Music playlist must be labeled: ${playlist.id}`);
+  }
 
   if (playlist.url !== `https://open.spotify.com/playlist/${playlist.id}`) {
     throw new Error(`URL does not match playlist ID: ${playlist.id}`);
