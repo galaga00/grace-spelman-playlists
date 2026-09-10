@@ -85,6 +85,7 @@ const displayTitle = String(
 ).trim();
 const publishedAt = String(payload.published_at || payload.publishedAt || new Date().toISOString().slice(0, 10));
 const status = String(payload.status || "complete").trim().toLowerCase();
+const sourceUrl = String(payload.source_url || "").trim();
 
 if (!/^\d{4}-\d{2}-\d{2}$/.test(publishedAt)) {
   throw new Error("published_at must use YYYY-MM-DD");
@@ -92,6 +93,10 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(publishedAt)) {
 
 if (status !== "complete") {
   throw new Error("status must be complete");
+}
+
+if (!/^https:\/\/gracespelmanmusicproject\.substack\.com\/p\//.test(sourceUrl)) {
+  throw new Error("source_url must be a Grace Spelman newsletter URL");
 }
 
 const playlists = JSON.parse(await readFile(dataPath, "utf8"));
@@ -105,14 +110,12 @@ const entry = {
   publishedAt,
   status,
   image: spotifyMetadata.thumbnail_url || existing?.image || "",
+  sourceUrl,
   note: String(
     payload.note ||
       existing?.note ||
       "A complete public playlist ready to open on Spotify.",
   ).trim(),
-  ...(payload.source_url || existing?.sourceUrl
-    ? { sourceUrl: String(payload.source_url || existing.sourceUrl).trim() }
-    : {}),
 };
 
 const updated = playlists.filter((playlist) => playlist.id !== id);

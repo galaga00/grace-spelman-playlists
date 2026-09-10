@@ -27,10 +27,7 @@ for (const playlist of playlists) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(playlist.publishedAt)) {
     throw new Error(`Invalid publishedAt: ${playlist.id}`);
   }
-  if (
-    playlist.sourceUrl &&
-    !/^https:\/\/gracespelmanmusicproject\.substack\.com\/p\//.test(playlist.sourceUrl)
-  ) {
+  if (!/^https:\/\/gracespelmanmusicproject\.substack\.com\/p\//.test(playlist.sourceUrl || "")) {
     throw new Error(`Invalid newsletter URL: ${playlist.id}`);
   }
 }

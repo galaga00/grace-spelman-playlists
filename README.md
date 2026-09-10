@@ -1,6 +1,6 @@
 # Grace Spelman Playlist Library
 
-Public, mobile-friendly directory of 145 complete Spotify playlists assembled from music shared by the Grace Spelman Music Project. The collection contains 4,327 playable tracks and is grouped by newsletter year and month.
+Public, mobile-friendly directory of 148 complete Spotify playlists assembled from music shared by the Grace Spelman Music Project. The collection contains 4,400 playable tracks and is grouped by newsletter year and month.
 
 - Live URL: <https://galaga00.github.io/grace-spelman-playlists/>
 - Public source: <https://github.com/galaga00/grace-spelman-playlists>
@@ -19,10 +19,11 @@ After Make successfully creates and fills a playlist, one GitHub repository-disp
 - public Spotify URL
 - verified track count
 - publication date
+- public newsletter URL
 
 The `Add a completed playlist` workflow validates the payload, looks up public Spotify artwork, deduplicates by Spotify playlist ID, updates `playlists.json`, and commits the result. That commit publishes the refreshed GitHub Pages site.
 
-The upsert guard rejects playlists whose live Spotify name does not begin with `Grace Spelman -` or `Grace Spelman —`, preventing future generic names such as `F15 #04` from entering the directory.
+The upsert guard rejects playlists whose live Spotify name does not begin with `Grace Spelman -` or `Grace Spelman —`, or whose public newsletter URL is missing or invalid. This prevents future generic names such as `F15 #04` and incomplete directory cards from entering the directory.
 
 There is no additional polling and no additional OpenAI request. The Make addition is expected to use one non-AI credit per completed playlist. Standard GitHub Pages workflow usage has no known marginal charge for this public repository.
 
