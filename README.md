@@ -1,6 +1,6 @@
 # Grace Spelman Playlist Library
 
-Public, mobile-friendly directory of 148 complete Spotify playlists assembled from music shared by the Grace Spelman Music Project. The collection contains 4,400 playable tracks and is grouped by newsletter year and month.
+Public, mobile-friendly directory of 149 complete Spotify playlists assembled from music shared by the Grace Spelman Music Project. The collection contains 4,450 playable tracks and is grouped by newsletter year and month.
 
 - Live URL: <https://galaga00.github.io/grace-spelman-playlists/>
 - Public source: <https://github.com/galaga00/grace-spelman-playlists>
