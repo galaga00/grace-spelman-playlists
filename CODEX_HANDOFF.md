@@ -19,6 +19,7 @@ Read `README.md` first.
 - Production branch: `main`
 - Deploy method: GitHub Actions `Publish playlist directory` on relevant pushes to `main`
 - Update method: Make scenario `5959064` dispatches `playlist_created` after either successful music route
+- Link retention: Make module `35` extracts the public newsletter URL; ingestion rejects missing or non-Grace `source_url` values
 
 ## Verification
 

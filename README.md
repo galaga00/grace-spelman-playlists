@@ -25,7 +25,7 @@ The `Add a completed playlist` workflow validates the payload, looks up public S
 
 The upsert guard rejects playlists whose live Spotify name does not begin with `Grace Spelman -` or `Grace Spelman —`, or whose public newsletter URL is missing or invalid. This prevents future generic names such as `F15 #04` and incomplete directory cards from entering the directory.
 
-There is no additional polling and no additional OpenAI request. The Make addition is expected to use one non-AI credit per completed playlist. Standard GitHub Pages workflow usage has no known marginal charge for this public repository.
+There is no additional polling and no additional OpenAI request. Make uses one lightweight text-parser operation per matched Grace email and one GitHub dispatch operation per completed playlist. Standard GitHub Pages workflow usage has no known marginal charge for this public repository.
 
 ## Local verification
 
