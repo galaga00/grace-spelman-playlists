@@ -70,6 +70,23 @@
     "note": "A complete public playlist ready to open on Spotify."
   },
   {
+    "id": "2N4CvzgRa7vDi6WtGXtKcm",
+    "title": "New Music Friday - September 14, 2026",
+    "spotifyName": "Grace Spelman - New Music Friday - September 14, 2026",
+    "url": "https://open.spotify.com/playlist/2N4CvzgRa7vDi6WtGXtKcm",
+    "trackCount": 34,
+    "publishedAt": "2026-09-14",
+    "status": "complete",
+    "image": "https://mosaic.scdn.co/300/ab67616d00001e023af48613b19da7eb6758d587ab67616d00001e023f1b3ae41c6946ad1f98902fab67616d00001e0249bd89da3bd906d2f8406875ab67616d00001e02ca74e034a90fe5eb152d4e59",
+    "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/new-music-friday-a-perfect-transitioning",
+    "sourceLabel": "original_post",
+    "provenance": {
+      "method": "email_rolling_snapshot",
+      "fidelity": "exact"
+    },
+    "note": "Preserved by the September 14 scheduled run; publication recovered after correcting the playlist name."
+  },
+  {
     "id": "1aZYu0oKBWF4xuXerSofcm",
     "title": "songs for walking around a new city",
     "spotifyName": "Grace Spelman - songs for walking around a new city",
