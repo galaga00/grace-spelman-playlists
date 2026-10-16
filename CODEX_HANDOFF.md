@@ -2,6 +2,11 @@
 
 Read `README.md` first.
 
+## October 15, 2026 repair
+
+Live inventory is 169 playlists / 5,213 tracks: 163 exact and six partial. Recovered September 14 and October 6/11/13. The ingest workflow now uses `queue: max` and checkout `ref: main`; two back-to-back dispatches succeeded without duplicates or lost updates. Preserve those settings. All three recent Spotify copies were compared track-for-track in source order. Historical August 22/29 and October 4 weekly editions await source evidence in the private project.
+
+
 ## Boundaries
 
 - This is the public, static playlist directory only.
@@ -9,7 +14,7 @@ Read `README.md` first.
 - Never copy Make blueprints, newsletter text, email addresses, credentials, paywalled material, or obsolete/test playlist IDs into this public repository.
 - Future playlist records are event-driven through GitHub `repository_dispatch`; do not add a polling job.
 - Every playlist record must have `status: "complete"` or `"review"`, a positive track count, a supported `provenance.method`, a compatible fidelity (`exact` or `verified-available`), and a `spotifyName` beginning with the Grace Spelman identifier.
-- The directory intentionally excludes obsolete partial/test playlists. Current inventory: 162 playlists and 4,971 playable tracks; 156 have historically exact provenance, six are visibly marked partial with verified/source counts, and six retired source links are shown only as a summary count.
+- The directory intentionally excludes obsolete partial/test playlists. Current inventory: 169 playlists and 5,213 playable tracks; 163 have historically exact provenance, six are visibly marked partial with verified/source counts, and six retired source links are shown only as a summary count.
 - Preserve year/month grouping, source-method labels, owned Spotify and original-post links, optional Apple links, and every card's TIDAL transfer button. Never reproduce newsletter body text, paid track lists, or the private historical document URL.
 
 ## Service links — 2026-09-10
@@ -35,7 +40,7 @@ Read `README.md` first.
 1. Run `npm run validate`.
 2. Serve the site locally and check phone, tablet, and desktop viewports.
 3. Confirm all public cards open the expected Spotify playlist.
-4. Confirm the rendered stats are 162 public playlists, 156 historically exact, six verified partial, 4,971 tracks, and six retired links until a production newsletter changes the inventory.
+4. Confirm the rendered stats are 169 public playlists, 163 historically exact, six verified partial, 5,213 tracks, and six retired links until a production newsletter changes the inventory.
 5. Confirm a test repository-dispatch upserts an existing record without creating a duplicate before relying on the first live newsletter.
 
 For GitHub/source-of-truth, dirty-work, commit/push, and deployment hygiene, also use:
