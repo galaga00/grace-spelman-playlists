@@ -12,6 +12,7 @@ permissions:
 concurrency:
   group: playlist-ingest
   cancel-in-progress: false
+  queue: max
 
 jobs:
   update-directory:
@@ -19,6 +20,10 @@ jobs:
     steps:
       - name: Check out the directory
         uses: actions/checkout@v4
+        with:
+          # Dispatch events retain their original SHA while waiting in the queue.
+          # Start from current main so earlier playlist updates are preserved.
+          ref: main
 
       - name: Set up Node
         uses: actions/setup-node@v4
