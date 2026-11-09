@@ -1,5 +1,24 @@
 [
   {
+    "id": "7h0l70GD4l1ayStMzID1Pb",
+    "title": "New Music Friday - November 9, 2026",
+    "spotifyName": "Grace Spelman - New Music Friday - November 9, 2026",
+    "url": "https://open.spotify.com/playlist/7h0l70GD4l1ayStMzID1Pb",
+    "trackCount": 55,
+    "publishedAt": "2026-11-09",
+    "status": "complete",
+    "image": "https://mosaic.scdn.co/300/ab67616d00001e02046e076b1fba2bac0770f65fab67616d00001e0207ec39f86659c312c6440b7eab67616d00001e0210535ac4c8653da3990bf5e1ab67616d00001e029d3cb1617c4102f951a24e8b",
+    "sourceUrl": "https://gracespelmanmusicproject.substack.com/p/new-music-friday-im-obsessed-with",
+    "sourceLabel": "original_post",
+    "appleMusicUrl": "https://music.apple.com/us/playlist/%C9%B4%E1%B4%87%E1%B4%A1-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%EA%9C%B0%CA%80%C9%AA%E1%B4%85%E1%B4%80%CA%8F-graces-version/pl.u-4Jom843TaoYrBX",
+    "appleMusicIsRolling": true,
+    "provenance": {
+      "method": "email_rolling_snapshot",
+      "fidelity": "exact"
+    },
+    "note": "A complete public playlist ready to open on Spotify."
+  },
+  {
     "id": "0wNmlV23WBiGLGyuMaAN0I",
     "title": "The Ultimate Sunday Scaries Playlist - November 5, 2026",
     "spotifyName": "Grace Spelman - The Ultimate Sunday Scaries Playlist - November 5, 2026",
